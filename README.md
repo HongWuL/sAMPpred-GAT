@@ -26,7 +26,7 @@ hhblits 3.3.0
 ```
 Databases:
 ```
-nrdb90(utils/psiblast/nrdb90/)
+nrdb90(http://ftp.ebi.ac.uk/pub/databases/nrdb90/)
 NR(https://ftp.ncbi.nlm.nih.gov/blast/db/)
 uniclust30_2018_08(https://wwwuser.gwdg.de/~compbiol/uniclust/2018_08/)
 ```
