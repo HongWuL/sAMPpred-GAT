@@ -78,13 +78,8 @@ XXX(name of the negative file).fasta
 ---D.npz
 
 ```
-The extracted features of XUAMP are given as an example, you can download from (). 
-
 A trained model for XUAMP is supplied in saved_models/samp.model. You can test it by using:
 
-```
-python test.py
-```
 Note that the fasta_path_positive, npz_dir_positive, fasta_path_negative and npz_dir_negative should be replaced as the path of the input folder.
 
 
