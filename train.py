@@ -18,14 +18,14 @@ def train(args):
 
     # loading and spliting data
 
-    fasta_path_train_positive = 'data/train_data/positive/XU_train_pos_1500.fasta'
-    fasta_path_val_positive = 'data/train_data/positive/XU_val_pos_1500.fasta'
+    fasta_path_train_positive = 'data/train_data/positive/XU_train_positive.fasta'
+    fasta_path_val_positive = 'data/train_data/positive/XU_val_positive.fasta'
     npz_dir_positive = 'data/train_data/positive/npz/'
     data_train, _ = load_data(fasta_path_train_positive, npz_dir_positive, threshold, 1)
     data_val, _ = load_data(fasta_path_val_positive, npz_dir_positive, threshold, 1)
 
-    fasta_path_train_negative = 'data/train_data/negative/XU_train_neg_1500.fasta'
-    fasta_path_val_negative = 'data/train_data/negative/XU_val_neg_1500.fasta'
+    fasta_path_train_negative = 'data/train_data/negative/XU_train_negative.fasta'
+    fasta_path_val_negative = 'data/train_data/negative/XU_val_negative.fasta'
     npz_dir_negative = 'data/train_data/negative/npz/'
     neg_data_train, _ = load_data(fasta_path_train_negative, npz_dir_negative, threshold, 0)
     neg_data_val, _ = load_data(fasta_path_val_negative, npz_dir_negative, threshold, 0)
