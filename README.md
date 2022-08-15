@@ -38,7 +38,7 @@ The structures are predicted by trRosetta(https://github.com/gjoni/trRosetta), y
 ```
 python generate_features.py -feas PSSM HHM NPZ -hhm_ifasta test_feature_generation/test.fasta -pssm_ifasta test_feature_generation/test.fasta
 ```
-Note that, before runing the feature extracting program the path of psiblast and hhblits should be checked in `utils/psiblast_search.py` and `utils/hhblits_search.py`
+Note that, before runing the feature extracting program, the path of psiblast and hhblits in `utils/psiblast_search.py` and `utils/hhblits_search.py` should be checked and replaced into your local path.
 
 ## train and test
 
