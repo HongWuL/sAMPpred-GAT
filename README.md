@@ -78,9 +78,9 @@ XXX(name of the negative file).fasta
 ---D.npz
 
 ```
-A trained model for XUAMP is supplied in saved_models/samp.model. You can test it by using:
+A trained model for XUAMP is supplied in saved_models/samp.model. 
 
-Note that the fasta_path_positive, npz_dir_positive, fasta_path_negative and npz_dir_negative should be replaced as the path of the input folder.
+Note that the `fasta_path_positive`, `npz_dir_positive`, `fasta_path_negative` and `npz_dir_negative` should be replaced as the path of the input folder.
 
 
 
