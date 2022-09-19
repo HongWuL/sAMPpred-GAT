@@ -24,6 +24,16 @@ Tools:
 psi-blast 2.12.0
 hhblits 3.3.0
 ```
+The installation method and location:
+hhblits:
+```
+conda install -c conda-forge -c bioconda hhsuite==3.3.0
+```
+psibliast:
+```
+https://ftp.ncbi.nlm.nih.gov/blast/executables/blast+/2.12.0/ncbi-blast-2.12.0+-x64-linux.tar.gz
+```
+
 Databases:
 ```
 nrdb90(http://ftp.ebi.ac.uk/pub/databases/nrdb90/)
