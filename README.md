@@ -31,7 +31,7 @@ conda install -c conda-forge -c bioconda hhsuite==3.3.0
 ```
 psibliast:
 ```
-https://ftp.ncbi.nlm.nih.gov/blast/executables/blast+/2.12.0/ncbi-blast-2.12.0+-x64-linux.tar.gz
+wget ftp://ftp.ncbi.nlm.nih.gov/blast/executables/blast+/2.12.0/ncbi-blast-2.12.0+-x64-linux.tar.gz
 ```
 
 Databases:
