@@ -52,25 +52,6 @@ def train(args):
 
         data_train = shuffle(data_train)  
 
-
-    # fasta_path_positive = 'data/train_data/positive/sampled_newdb8.fasta'
-    # # fasta_path_positive = f'/home/yk/lhw/codes/GNN_PEP/final_data/train_data/positive/{args.i}_AMP.fasta'
-    # npz_dir_positive = 'data/train_data/positive/npz/'
-    # data_list, labels = load_data(fasta_path_positive, npz_dir_positive, threshold, 1)
-
-    # fasta_path_negative = 'data/train_data/negative/uniprot_nonamp_final2.fasta'
-    # npz_dir_negative = 'data/train_data/negative/npz/'
-    # # npz_dir_negative = '/home/yk/lhw/codes/GNN_PEP/final_data/train_data_plus/negative/npz/'
-
-    # neg_data = load_data(fasta_path_negative, npz_dir_negative, threshold, 0)
-    # data_list.extend(neg_data[0])
-    # labels = np.concatenate((labels, neg_data[1]), axis=0)
-
-    # ids = list(range(0, len(data_list)))
-    # ids_train, ids_val, data_train, data_val, _, _ = train_test_split(ids, data_list, labels, test_size=0.2, shuffle=True, random_state=41)
-    # print(ids_train)
-    # print(ids_val)
-
     device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
     print('device:', device)
 
