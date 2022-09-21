@@ -1,0 +1,11 @@
+# Tools
+psiblast: psiblast
+hhblits: hhblits
+rosetta: utils/trRosetta/predict_many.py
+
+# Databases and model
+nrdb90: utils/psiblast/nrdb90/nrdb90
+nr: utils/psiblast/nr/nr
+uniclust: /utils/uniclust30_2018_08/uniclust30_2018_08
+rosetta_model: utils/trRosetta/model2019_07
+
