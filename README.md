@@ -18,7 +18,7 @@ networkx  2.61.3
 numpy 1.21.6
 tqdm  4.64.1
 ```
-For more detailed library information, please refer to requirements.txt. 
+For more detailed library information, please refer to `requirements.txt`. 
 
 ## Tools
 Two multiple sequence alignment tools and three databases are required: 
