@@ -16,27 +16,41 @@ warnings.filterwarnings("ignore")
 
 def train(args):
     threshold = args.d
-    # np.random.seed(41)
 
     # loading and spliting data
+    if args.pos_v == "" or args.neg_v == "":
+        
+        fasta_path_positive = args.pos_t
+        npz_dir_positive = args.pos_npz
+        data_list, labels = load_data(fasta_path_positive, npz_dir_positive, threshold, 1)
 
-    fasta_path_train_positive = args.pos_t
-    fasta_path_val_positive = args.pos_v
-    npz_dir_positive = args.pos_npz
-    data_train, _ = load_data(fasta_path_train_positive, npz_dir_positive, threshold, 1)
-    data_val, _ = load_data(fasta_path_val_positive, npz_dir_positive, threshold, 1)
+        fasta_path_negative = args.neg_t
+        npz_dir_negative = args.neg_npz
 
-    fasta_path_train_negative = args.neg_t
-    fasta_path_val_negative = args.neg_v
-    npz_dir_negative = args.neg_npz
-    neg_data_train, _ = load_data(fasta_path_train_negative, npz_dir_negative, threshold, 0)
-    neg_data_val, _ = load_data(fasta_path_val_negative, npz_dir_negative, threshold, 0)
+        neg_data = load_data(fasta_path_negative, npz_dir_negative, threshold, 0)
+        data_list.extend(neg_data[0])
+        labels = np.concatenate((labels, neg_data[1]), axis=0)
 
-    data_train.extend(neg_data_train)
-    data_val.extend(neg_data_val)
+        ids = list(range(0, len(data_list)))
+        data_train, data_val, _, _ = train_test_split(data_list, labels, test_size=0.2, shuffle=True, random_state=41)
+    else:
 
-    data_train = shuffle(data_train, random_state=args.seed)  # shuffle the training dataset
-    # data_val = shuffle(data_val)  # shuffle the training dataset
+        fasta_path_train_positive = args.pos_t
+        fasta_path_val_positive = args.pos_v
+        npz_dir_positive = args.pos_npz
+        data_train, _ = load_data(fasta_path_train_positive, npz_dir_positive, threshold, 1)
+        data_val, _ = load_data(fasta_path_val_positive, npz_dir_positive, threshold, 1)
+
+        fasta_path_train_negative = args.neg_t
+        fasta_path_val_negative = args.neg_v
+        npz_dir_negative = args.neg_npz
+        neg_data_train, _ = load_data(fasta_path_train_negative, npz_dir_negative, threshold, 0)
+        neg_data_val, _ = load_data(fasta_path_val_negative, npz_dir_negative, threshold, 0)
+
+        data_train.extend(neg_data_train)
+        data_val.extend(neg_data_val)
+
+        data_train = shuffle(data_train)  
 
 
     # fasta_path_positive = 'data/train_data/positive/sampled_newdb8.fasta'
@@ -68,7 +82,6 @@ def train(args):
 
 
     if args.pretrained_model == "":
-        print("raw")
         model = GATModel(node_feature_dim, args.hd, n_class, args.drop, args.heads).to(device)
     else:
         print("pretrain")
@@ -173,14 +186,14 @@ if __name__ == '__main__':
     # input file
     parser.add_argument('-pos_t', type=str, default='data/train_data/positive/XU_pretrain_train_positive.fasta',
                         help='Path of the positive training dataset')
-    parser.add_argument('-pos_v', type=str, default='data/train_data/positive/XU_pretrain_val_positive.fasta',
+    parser.add_argument('-pos_v', type=str, default='',
                         help='Path of the positive validation training dataset')
     parser.add_argument('-pos_npz', type=str, default='data/train_data/positive/npz/',
                         help='Path of the npz folder, which saves the predicted structure')
 
     parser.add_argument('-neg_t', type=str, default='data/train_data/negative/XU_pretrain_train_negative.fasta',
                         help='Path of the negative training dataset')
-    parser.add_argument('-neg_v', type=str, default='data/train_data/negative/XU_pretrain_val_negative.fasta', 
+    parser.add_argument('-neg_v', type=str, default='', 
                         help='Path of the negative validation training dataset')
     parser.add_argument('-neg_npz', type=str, default='data/train_data/negative/npz/', 
                         help='Path of the npz folder, which saves the predicted structure')
