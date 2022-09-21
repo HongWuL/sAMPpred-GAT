@@ -1,0 +1,1414 @@
+Query         seq2
+Match_columns 60
+No_of_seqs    18 out of 24
+Neff          2.74908
+Searched_HMMs 214
+Date          Wed Sep 21 11:04:23 2022
+Command       hhblits -i example/positive/tmp/seq2.fasta -o example/positive/a3m/tmp.hhr -oa3m example/positive/a3m/seq2.a3m -ohhm example/positive/hhm/output/seq2.hhm -d /home/yk/Database/uniclust30_2018_08/uniclust30_2018_08 -cpu 8 -v 0 -n 3 -e 0.01 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 tr|A0A0D3BD41|A0A0D3BD41_BRAOL  99.8 3.6E-23 1.5E-28  134.4   0.0   55    1-60     26-80  (80)
+  2 tr|A0A178VNF7|A0A178VNF7_ARATH  99.7   1E-20 3.2E-26  134.1   0.0   60    1-60     92-151 (151)
+  3 tr|A0A178VNF7|A0A178VNF7_ARATH  99.1 1.6E-13 5.1E-19   98.6   0.0   56    1-58     27-85  (151)
+  4 tr|A0A2P5W0I9|A0A2P5W0I9_GOSBA  98.3 6.5E-09 2.1E-14   68.2   0.0   31   28-60     19-49  (68)
+  5 tr|B9IKS6|B9IKS6_POPTR Unchara  98.3 7.1E-09 2.2E-14   69.6   0.0   33   27-60     26-58  (80)
+  6 tr|A0A1U8JWX6|A0A1U8JWX6_GOSHI  98.2   1E-08 3.5E-14   70.7   0.0   31   28-60     23-54  (95)
+  7 tr|A0A2P5QZ96|A0A2P5QZ96_GOSBA  96.8 8.4E-05 2.6E-10   51.5   0.0   25   29-55     22-46  (84)
+  8 tr|A0A2I0HIR5|A0A2I0HIR5_PUNGR  95.9  0.0019 5.8E-09   46.0   0.0   33   25-59     24-59  (94)
+  9 sp|P83397|ITR6_CYCPE Trypsin i  94.5   0.019 7.6E-08   33.9   0.0   21   30-50      9-29  (30)
+ 10 tr|A0A0D2QVY5|A0A0D2QVY5_GOSRA  93.2   0.077   3E-07   38.1   0.0   32   29-60     15-46  (90)
+ 11 tr|A0A2P5Q4B2|A0A2P5Q4B2_GOSBA  93.2   0.096   3E-07   37.7   0.0   31   28-60      8-38  (88)
+ 12 tr|A0A1J6JXH0|A0A1J6JXH0_NICAT  92.8    0.11   4E-07   37.1   0.0   31   29-60     34-64  (83)
+ 13 tr|V4JSS2|V4JSS2_EUTSA Unchara  91.6    0.22 8.1E-07   35.9   0.0   31   29-60     56-86  (87)
+ 14 tr|A0A2J8AI94|A0A2J8AI94_9CHLO  91.0    0.35 1.1E-06   38.5   0.0   32   17-59    130-161 (175)
+ 15 tr|R0GBW2|R0GBW2_9BRAS Unchara  88.8    0.75 2.5E-06   34.8   0.0   33   25-59     59-91  (111)
+ 16 tr|A0A2P5E1K5|A0A2P5E1K5_PARAD  88.7    0.84 2.6E-06   32.0   0.0   16   28-43     11-26  (66)
+ 17 tr|L7MCJ9|L7MCJ9_9ACAR Putativ  88.4     0.9 2.8E-06   32.5   0.0   33   28-60     35-69  (76)
+ 18 tr|V7ALF6|V7ALF6_PHAVU Unchara  88.2    0.75   3E-06   33.8   0.0   32   29-60     62-94  (96)
+ 19 tr|E2BNF6|E2BNF6_HARSA Unchara  87.9    0.94 3.3E-06   38.1   0.0   27   29-60     27-53  (255)
+ 20 tr|A0A072VAL4|A0A072VAL4_MEDTR  86.1     1.6 5.1E-06   30.4   0.0   29   29-59     27-55  (63)
+ 21 sp|P34950|ITR5_LUFAE Trypsin i  85.8     1.7 5.3E-06   30.3   0.0   22   29-50     41-62  (63)
+ 22 tr|A0A017TEZ2|A0A017TEZ2_9DELT  81.4     3.4 1.2E-05   30.1   0.0   30   30-59     47-77  (79)
+ 23 tr|R0EZP2|R0EZP2_9BRAS Unchara  79.6     4.6 1.5E-05   29.6   0.0   31   29-60     50-80  (80)
+ 24 tr|A0A0S4JG22|A0A0S4JG22_BODSA  77.1     6.5   2E-05   41.7   0.0   26   35-60   1645-1670(3755)
+ 25 tr|A0A1Y6LDR0|A0A1Y6LDR0_ZYMTR  73.3     9.7   3E-05   28.4   0.0   24   36-59     59-83  (86)
+ 26 tr|A0A1E1LHC1|A0A1E1LHC1_9HELO  72.7      10 3.2E-05   26.6   0.0   30   29-59     27-59  (59)
+ 27 tr|A0A0M9G1V8|A0A0M9G1V8_9TRYP  71.7      11 3.5E-05   39.0   0.0   26   35-60   1208-1233(1878)
+ 28 tr|A0A1S3IB90|A0A1S3IB90_LINUN  71.6     9.2 3.5E-05   36.4   0.0   24   37-60    107-130 (663)
+ 29 tr|T1GK46|T1GK46_MEGSC Unchara  70.8      11 3.8E-05   35.6   0.0   26   35-60    207-232 (586)
+ 30 tr|A0A226NMK9|A0A226NMK9_CALSU  70.4      13 3.9E-05   29.8   0.0   26   34-59     65-90  (141)
+ 31 tr|S9XLY8|S9XLY8_CAMFR Unchara  69.7      13 4.2E-05   29.4   0.0   20   41-60     31-50  (129)
+ 32 tr|A0A1B0GQM5|A0A1B0GQM5_PHLPP  69.4      13 4.3E-05   32.3   0.0   32   29-60    141-175 (264)
+ 33 tr|T1K2P7|T1K2P7_TETUR Unchara  68.7      13 4.5E-05   34.6   0.0   26   35-60    220-245 (508)
+ 34 tr|A0A2G8KFS8|A0A2G8KFS8_STIJA  68.4      15 4.6E-05   30.7   0.0   25   36-60      5-30  (196)
+ 35 tr|A0A260ZR48|A0A260ZR48_CAERE  66.0      18 5.6E-05   29.2   0.0   33   28-60     54-94  (145)
+ 36 tr|W4Z1L6|W4Z1L6_STRPU Unchara  66.0      18 5.6E-05   28.9   0.0   25   36-60    104-128 (135)
+ 37 tr|A0A1I1NPS3|A0A1I1NPS3_9BACT  65.2      19   6E-05   29.2   0.0   36    2-37     35-71  (152)
+ 38 tr|G0NRI1|G0NRI1_CAEBE Unchara  63.1      20   7E-05   28.8   0.0   31   25-55     36-66  (137)
+ 39 tr|A0A072V7Y8|A0A072V7Y8_MEDTR  60.3      27 8.5E-05   25.5   0.0   28   25-52     26-54  (71)
+ 40 tr|N6UNL6|N6UNL6_DENPD Unchara  59.8      28 8.8E-05   32.2   0.0   27   34-60    129-155 (455)
+ 41 tr|G0N5U1|G0N5U1_CAEBE Unchara  59.1      30 9.2E-05   27.7   0.0   25   36-60     71-95  (129)
+ 42 tr|B3S0P5|B3S0P5_TRIAD Unchara  58.2      32 9.8E-05   31.7   0.0   25   35-59    170-195 (419)
+ 43 tr|A0A2K3LSE3|A0A2K3LSE3_TRIPR  57.6      33  0.0001   28.7   0.0   30   29-60     75-104 (179)
+ 44 tr|A0A1A8N6G7|A0A1A8N6G7_9TELE  56.6      35 0.00011   28.1   0.0   24   37-60    119-142 (160)
+ 45 tr|U3IR10|U3IR10_ANAPL Scaveng  56.6      33 0.00011   30.3   0.0   24   36-60    187-210 (275)
+ 46 tr|M1UVZ7|M1UVZ7_CYAM1 Unchara  55.4      38 0.00012   31.9   0.0   35   24-59    183-217 (520)
+ 47 tr|A0A0D2QVY5|A0A0D2QVY5_GOSRA  55.2      31 0.00012   26.1   0.0   31   25-59     56-89  (90)
+ 48 tr|A0A2C9M1R6|A0A2C9M1R6_BIOGL  54.5      40 0.00012   31.1   0.0   31   29-59    293-325 (418)
+ 49 tr|V7AIG1|V7AIG1_PHAVU Unchara  54.3      41 0.00013   27.0   0.0   35   25-60     90-124 (126)
+ 50 tr|T1GLH7|T1GLH7_MEGSC Unchara  53.6      42 0.00013   29.3   0.0   28   33-60    143-170 (249)
+ 51 tr|A0A2U3YZ10|A0A2U3YZ10_LEPWE  52.1      47 0.00014   30.0   0.0   32   29-60    224-258 (326)
+ 52 tr|A0A2N9J1R8|A0A2N9J1R8_FAGSY  52.0      47 0.00015   29.7   0.0   29   25-53     25-53  (299)
+ 53 tr|A0A183BP81|A0A183BP81_GLOPA  51.7      48 0.00015   34.3   0.0   26   35-60   1089-1114(1521)
+ 54 tr|Q54KC4|Q54KC4_DICDI Unchara  50.2      52 0.00016   28.6   0.0   22   38-59     15-36  (237)
+ 55 tr|G1NC01|G1NC01_MELGA N-acety  49.9      53 0.00017   29.4   0.0   24   37-60    138-161 (300)
+ 56 tr|A0A2G9RK21|A0A2G9RK21_LITCT  48.7      47 0.00018   27.5   0.0   27   34-60    110-136 (164)
+ 57 tr|A0A1B0GQM5|A0A1B0GQM5_PHLPP  45.3      64 0.00022   28.6   0.0   26   35-60     64-89  (264)
+ 58 tr|V7AJ81|V7AJ81_PHAVU Unchara  44.7      71 0.00022   24.2   0.0   32   29-60     45-77  (80)
+ 59 tr|A0A183D244|A0A183D244_9BILA  44.1      69 0.00023   24.4   0.0   24   36-59     41-64  (85)
+ 60 tr|S9XLY8|S9XLY8_CAMFR Unchara  41.1      90 0.00028   25.4   0.0   31   29-60     59-92  (129)
+ 61 tr|A0A0C3ALH1|A0A0C3ALH1_9HOMO  40.7      92 0.00028   25.3   0.0   34   17-53     38-71  (129)
+ 62 tr|B3S0P5|B3S0P5_TRIAD Unchara  40.0      96  0.0003   29.1   0.0   23   36-59    308-330 (419)
+ 63 tr|A0A194Q4I8|A0A194Q4I8_PAPXU  37.8 1.1E+02 0.00034   26.9   0.0   17   24-40     52-68  (231)
+ 64 tr|A0A0V1P3C2|A0A0V1P3C2_9BILA  37.5      87 0.00035   32.5   0.0   27   34-60    197-223 (1170)
+ 65 tr|A0A1A8ACC7|A0A1A8ACC7_NOTFU  37.4      94 0.00035   31.3   0.0   27   33-59     38-64  (807)
+ 66 tr|A0A1V4KDL1|A0A1V4KDL1_PATFA  36.7      96 0.00036   29.3   0.0   26   35-60    208-233 (434)
+ 67 tr|H2MN54|H2MN54_ORYLA Unchara  36.1      90 0.00038   27.9   0.0   27   34-60    264-290 (297)
+ 68 tr|A0A183TM83|A0A183TM83_SCHSO  35.8 1.2E+02 0.00038   29.2   0.0   24   36-59    204-227 (551)
+ 69 tr|A0A0V1P3C2|A0A0V1P3C2_9BILA  35.4      99 0.00039   32.2   0.0   25   36-60    157-181 (1170)
+ 70 tr|A0A0K1QBL4|A0A0K1QBL4_9DELT  35.1 1.3E+02  0.0004   23.4   0.0   30   28-57     37-68  (90)
+ 71 tr|K1QDC7|K1QDC7_CRAGI Jumonji  34.5 1.3E+02 0.00041   32.8   0.0   24   36-59   1924-1947(2408)
+ 72 tr|A0A084VQV3|A0A084VQV3_ANOSI  34.1 1.4E+02 0.00042   31.7   0.0   25   36-60    853-877 (1526)
+ 73 tr|A0A226PR27|A0A226PR27_COLVI  33.2 1.5E+02 0.00045   30.3   0.0   25   36-60    808-832 (950)
+ 74 tr|A0A182FG82|A0A182FG82_ANOAL  33.2 1.3E+02 0.00045   32.2   0.0   26   35-60    682-707 (1444)
+ 75 tr|A0A0A7HIA5|A0A0A7HIA5_9ROSI  32.6 1.4E+02 0.00047   27.5   0.0   22   29-50    310-331 (332)
+ 76 tr|A0A1Y3EPF8|A0A1Y3EPF8_9BILA  32.2 1.5E+02 0.00048   29.0   0.0   35   26-60     27-64  (605)
+ 77 tr|A0A183D244|A0A183D244_9BILA  31.2 1.5E+02 0.00051   22.9   0.0   18   41-60      5-22  (85)
+ 78 tr|A0A267DGY0|A0A267DGY0_9PLAT  30.6 1.7E+02 0.00053   28.3   0.0   32   24-55    317-349 (528)
+ 79 tr|A0A1A6GMN1|A0A1A6GMN1_NEOLE  30.1 1.8E+02 0.00055   27.5   0.0   25   35-59    177-201 (401)
+ 80 tr|A0A017T3G0|A0A017T3G0_9DELT  29.7 1.6E+02 0.00056   24.0   0.0   31   28-58     69-102 (124)
+ 81 tr|A0A0V1P3C2|A0A0V1P3C2_9BILA  29.6 1.4E+02 0.00057   31.3   0.0   27   34-60    843-869 (1170)
+ 82 tr|A0A158PJU4|A0A158PJU4_ANGCS  29.4 1.5E+02 0.00057   30.3   0.0   32   29-60    545-579 (868)
+ 83 tr|A0A087SZD7|A0A087SZD7_9ARAC  28.5   2E+02 0.00061   28.9   0.0   26   35-60    221-247 (746)
+ 84 tr|A0A0B1SY62|A0A0B1SY62_OESDE  28.4   2E+02 0.00061   29.3   0.0   24   36-59    153-176 (852)
+ 85 tr|H0XVY0|H0XVY0_OTOGA Multipl  28.3 1.7E+02 0.00062   30.1   0.0   31   30-60    220-250 (873)
+ 86 tr|A0A2T9ZEB2|A0A2T9ZEB2_9FUNG  28.0   2E+02 0.00063   26.1   0.0   26   25-50    174-204 (284)
+ 87 tr|H2MN54|H2MN54_ORYLA Unchara  27.8 1.5E+02 0.00064   26.7   0.0   24   37-60    144-167 (297)
+ 88 tr|H0XVY0|H0XVY0_OTOGA Multipl  26.9 1.8E+02 0.00068   29.8   0.0   27   33-59    266-292 (873)
+ 89 tr|T0PVD6|T0PVD6_9STRA Unchara  26.9 2.2E+02 0.00068   24.3   0.0   34    3-36     94-127 (163)
+ 90 tr|H0XVY0|H0XVY0_OTOGA Multipl  26.5 1.9E+02  0.0007   29.8   0.0   26   35-60    572-597 (873)
+ 91 tr|A0A1A6GMN1|A0A1A6GMN1_NEOLE  26.2 2.3E+02 0.00071   26.9   0.0   30   31-60    130-159 (401)
+ 92 tr|A0A182FG82|A0A182FG82_ANOAL  26.1   2E+02 0.00072   31.1   0.0   25   36-60    510-534 (1444)
+ 93 tr|A0A0V1P3C2|A0A0V1P3C2_9BILA  25.6 1.9E+02 0.00074   30.6   0.0   26   35-60    580-605 (1170)
+ 94 tr|A0A2G9RK21|A0A2G9RK21_LITCT  25.4   2E+02 0.00075   24.4   0.0   25   36-60     69-93  (164)
+ 95 tr|A0A0J9XP56|A0A0J9XP56_BRUMA  24.7 2.6E+02 0.00079   25.8   0.0   32    1-32     99-130 (303)
+ 96 tr|A0A0N0PAX4|A0A0N0PAX4_PAPMA  24.1   2E+02 0.00083   30.3   0.0   25   36-60    178-202 (1146)
+ 97 tr|A0A0A7HIA5|A0A0A7HIA5_9ROSI  22.4 2.9E+02 0.00094   25.9   0.0   24   29-52    200-223 (332)
+ 98 tr|A0A2D7T1L9|A0A2D7T1L9_9RICK  22.3   3E+02 0.00095   23.6   0.0   31    2-36     78-108 (164)
+ 99 tr|A0A2K3LSE3|A0A2K3LSE3_TRIPR  22.2 3.1E+02 0.00095   23.8   0.0   30   29-60     34-63  (179)
+100 tr|A0A158PJU4|A0A158PJU4_ANGCS  22.1 2.5E+02 0.00096   29.0   0.0   28   33-60    267-294 (868)
+101 tr|A0A0A7HIA5|A0A0A7HIA5_9ROSI  21.9   3E+02 0.00097   25.8   0.0   24   29-52    250-273 (332)
+102 tr|A0A0A7HIA5|A0A0A7HIA5_9ROSI  21.9   3E+02 0.00097   25.8   0.0   24   29-52    100-123 (332)
+103 tr|A0A132AL88|A0A132AL88_SARSC  21.4 2.3E+02   0.001   27.6   0.0   28   33-60     31-58  (546)
+104 tr|A0A0S8FRX5|A0A0S8FRX5_9BACT  20.9 3.4E+02   0.001   24.6   0.0   15    2-16     86-100 (251)
+105 tr|A0A087G8G9|A0A087G8G9_ARAAL  20.6 3.2E+02  0.0011   22.8   0.0   33   25-59     30-62  (132)
+106 tr|A0A1I7TTY3|A0A1I7TTY3_9PELO  20.5 3.5E+02  0.0011   28.9   0.0   33   28-60    233-265 (1307)
+107 tr|A0A132AL88|A0A132AL88_SARSC  20.4 2.5E+02  0.0011   27.4   0.0   25   36-60    467-492 (546)
+108 tr|A0A1Y3EPF8|A0A1Y3EPF8_9BILA  20.2 3.6E+02  0.0011   26.9   0.0   28   33-60    277-304 (605)
+
+No 1
+>tr|A0A0D3BD41|A0A0D3BD41_BRAOL Uncharacterized protein OS=Brassica oleracea var. oleracea OX=109376 PE=4 SV=1
+Probab=99.79  E-value=3.6e-23  Score=134.45  Aligned_cols=55  Identities=60%  Similarity=1.160  Sum_probs=49.9  Template_Neff=2.681
+
+Q seq2              1 RELTGAGKKLEVATRSSNYAGTARTLLQARPCQRDVDCNFQCPRIQGGQCNNHHGTCDCF   60 (60)
+Q Consensus         1 ReLtgv~~~~~~~~~s~~y~~~~~tl~~~~~CkRDiDC~fqCp~~~gG~Cn~~~~~C~C~   60 (60)
+                      |||||++++++++++ ++  ...+++++++|||||+||+|+||  ++||||+++++|+|+
+T Consensus        26 ReLtgv~~~~~~~~~-~~--~~~~~~~~~~pCkRD~DC~f~Cp--kgG~Cn~~~g~C~C~   80 (80)
+T tr|A0A0D3BD41|   26 RELTGVDEKFEVNAA-SN--IRNDTLPQHPPCKRDIDCSFQCP--KGGFCNDRLGTCDCF   80 (80)
+Confidence            899999999999999 44  12348999999999999999999  999999999999997
+
+
+No 2
+>tr|A0A178VNF7|A0A178VNF7_ARATH Uncharacterized protein OS=Arabidopsis thaliana OX=3702 GN=AXX17_At3g26510 PE=4 SV=1
+Probab=99.70  E-value=1e-20  Score=134.05  Aligned_cols=60  Identities=93%  Similarity=1.552  Sum_probs=59.1  Template_Neff=1.000
+
+Q seq2              1 RELTGAGKKLEVATRSSNYAGTARTLLQARPCQRDVDCNFQCPRIQGGQCNNHHGTCDCF   60 (60)
+Q Consensus         1 ReLtgv~~~~~~~~~s~~y~~~~~tl~~~~~CkRDiDC~fqCp~~~gG~Cn~~~~~C~C~   60 (60)
+                      |||||.++++|+++.|+||+|+++||.++.||+.|+||.||||+++||.||+++++|+||
+T Consensus        92 reltgadkklevatrssnyagtartllqarpcksdvdcnfqcpriqggqcnnrhgtcdcf  151 (151)
+T tr|A0A178VNF7|   92 RELTGADKKLEVATRSSNYAGTARTLLQARPCKSDVDCNFQCPRIQGGQCNNRHGTCDCF  151 (151)
+Confidence            899999999999999999999999999999999999999999999999999999999997
+
+
+No 3
+>tr|A0A178VNF7|A0A178VNF7_ARATH Uncharacterized protein OS=Arabidopsis thaliana OX=3702 GN=AXX17_At3g26510 PE=4 SV=1
+Probab=99.13  E-value=1.6e-13  Score=98.56  Aligned_cols=56  Identities=36%  Similarity=0.736  Sum_probs=50.4  Template_Neff=1.000
+
+Q seq2              1 RELTGAGKKLEVATRS-SNYAGTA--RTLLQARPCQRDVDCNFQCPRIQGGQCNNHHGTCD   58 (60)
+Q Consensus         1 ReLtgv~~~~~~~~~s-~~y~~~~--~tl~~~~~CkRDiDC~fqCp~~~gG~Cn~~~~~C~   58 (60)
+                      |+||||.+.+.++.++ ++|+..+  +||+++++|+|||||.|||.  .|||||..+.+|+
+T Consensus        27 rkltgvadvivegeaaspqygiidendtlnkapsckrdidctfqcr--rggfcnlllqkce   85 (151)
+T tr|A0A178VNF7|   27 RKLTGVADVIVEGEAASPQYGIIDENDTLNKSPSCKRDIDCTFQCR--RGGFCNLILQKCE   85 (151)
+Confidence            7899999999888755 9998776  49999999999999999999  7999999999885
+
+
+No 4
+>tr|A0A2P5W0I9|A0A2P5W0I9_GOSBA Uncharacterized protein OS=Gossypium barbadense OX=3634 GN=GOBAR_AA36103 PE=4 SV=1
+Probab=98.27  E-value=6.5e-09  Score=68.20  Aligned_cols=31  Identities=39%  Similarity=0.995  Sum_probs=28.9  Template_Neff=1.357
+
+Q seq2             28 QARPCQRDVDCNFQCPRIQGGQCNNHHGTCDCF   60 (60)
+Q Consensus        28 ~~~~CkRDiDC~fqCp~~~gG~Cn~~~~~C~C~   60 (60)
+                      ....|.|||||..||+  +||||+..+.+|+|+
+T Consensus        19 nseactrdidclgqck--hggfcdl~tkkcscl   49 (68)
+T tr|A0A2P5W0I9|   19 NSEACTRDIDCLGQCK--HGGFCDLITKKCSCL   49 (68)
+Confidence            3578999999999999  999999999999996
+
+
+No 5
+>tr|B9IKS6|B9IKS6_POPTR Uncharacterized protein OS=Populus trichocarpa OX=3694 GN=POPTR_018G033100v3 PE=4 SV=1 
+Probab=98.27  E-value=7.1e-09  Score=69.61  Aligned_cols=33  Identities=42%  Similarity=1.078  Sum_probs=30.4  Template_Neff=1.000
+
+Q seq2             27 LQARPCQRDVDCNFQCPRIQGGQCNNHHGTCDCF   60 (60)
+Q Consensus        27 ~~~~~CkRDiDC~fqCp~~~gG~Cn~~~~~C~C~   60 (60)
+                      .+++.|.|||||+||||+ ..|.|.+++..|+|+
+T Consensus        26 veaakcvrdidcsfqcps-grgvcvdkthecfcl   58 (80)
+T tr|B9IKS6|B9IK   26 VEAAKCVRDIDCSFQCPS-GRGVCVDKTHECFCL   58 (80)
+Confidence            468899999999999997 889999999999995
+
+
+No 6
+>tr|A0A1U8JWX6|A0A1U8JWX6_GOSHI putative defensin-like protein 263 OS=Gossypium hirsutum OX=3635 GN=LOC107911433 PE=4 SV=1
+Probab=98.22  E-value=1e-08  Score=70.66  Aligned_cols=31  Identities=42%  Similarity=1.173  Sum_probs=29.2  Template_Neff=1.552
+
+Q seq2             28 QARPCQRDVDCNFQCPRIQGGQCNNH-HGTCDCF   60 (60)
+Q Consensus        28 ~~~~CkRDiDC~fqCp~~~gG~Cn~~-~~~C~C~   60 (60)
+                      +++.|+|||||.|||+  +||+|+.. +++|+|.
+T Consensus        23 ~~a~csrdid~~f~ck--~g~~cd~~nt~~c~c~   54 (95)
+T tr|A0A1U8JWX6|   23 EAAECSRDIDCRFKCK--YGGICDDTNTRKCFCW   54 (95)
+Confidence            6789999999999999  99999999 9999994
+
+
+No 7
+>tr|A0A2P5QZ96|A0A2P5QZ96_GOSBA Uncharacterized protein OS=Gossypium barbadense OX=3634 GN=GOBAR_DD23226 PE=4 SV=1 
+Probab=96.79  E-value=8.4e-05  Score=51.47  Aligned_cols=25  Identities=40%  Similarity=0.887  Sum_probs=22.3  Template_Neff=1.000
+
+Q seq2             29 ARPCQRDVDCNFQCPRIQGGQCNNHHG   55 (60)
+Q Consensus        29 ~~~CkRDiDC~fqCp~~~gG~Cn~~~~   55 (60)
+                      ...|.|||||..||+  +||||+....
+T Consensus        22 seactrdidclgqck--hggfcdltlk   46 (84)
+T tr|A0A2P5QZ96|   22 SEACTRDIDCLGQCK--HGGFCDLTLK   46 (84)
+Confidence            578999999999999  9999998743
+
+
+No 8
+>tr|A0A2I0HIR5|A0A2I0HIR5_PUNGR Uncharacterized protein OS=Punica granatum OX=22663 GN=CRG98_048055 PE=4 SV=1
+Probab=95.89  E-value=0.0019  Score=46.01  Aligned_cols=33  Identities=42%  Similarity=0.966  Sum_probs=29.0  Template_Neff=1.000
+
+Q seq2             25 TLLQARPCQRDVDCNFQCPRIQG---GQCNNHHGTCDC   59 (60)
+Q Consensus        25 tl~~~~~CkRDiDC~fqCp~~~g---G~Cn~~~~~C~C   59 (60)
+                      +|+--..|+||+||.-.||  ++   .+|+.++.+|+|
+T Consensus        24 tlpmveackrdvdclaecp--kgtefpicdmktekcfc   59 (94)
+T tr|A0A2I0HIR5|   24 TLPMVEACKRDVDCLAECP--KGTEFPICDMKTEKCFC   59 (94)
+Confidence            6777889999999999999  45   479999999998
+
+
+No 9
+>sp|P83397|ITR6_CYCPE Trypsin inhibitor 6 OS=Cyclanthera pedata OX=198836 PE=1 SV=1
+Probab=94.53  E-value=0.019  Score=33.90  Aligned_cols=21  Identities=38%  Similarity=0.906  Sum_probs=17.9  Template_Neff=2.672
+
+Q seq2             30 RPCQRDVDCNFQCPRIQGGQC   50 (60)
+Q Consensus        30 ~~CkRDiDC~fqCp~~~gG~C   50 (60)
+                      -.||||.||..+|-.-..|+|
+T Consensus         9 M~Ck~DSDCla~CiC~~~G~C   29 (30)
+T sp|P83397|ITR6    9 MECKRDSDCLAECICLEHGFC   29 (30)
+Confidence            479999999999987666877
+
+
+No 10
+>tr|A0A0D2QVY5|A0A0D2QVY5_GOSRA Uncharacterized protein OS=Gossypium raimondii OX=29730 GN=B456_004G114900 PE=4 SV=1
+Probab=93.19  E-value=0.077  Score=38.12  Aligned_cols=32  Identities=25%  Similarity=0.826  Sum_probs=29.0  Template_Neff=2.340
+
+Q seq2             29 ARPCQRDVDCNFQCPRIQGGQCNNHHGTCDCF   60 (60)
+Q Consensus        29 ~~~CkRDiDC~fqCp~~~gG~Cn~~~~~C~C~   60 (60)
+                      ...|.-|+||...|...+-|.|+..+++|.|+
+T Consensus        15 ~~~Ct~ds~C~~~c~~~~lglc~lk~~K~~CL   46 (90)
+T tr|A0A0D2QVY5|   15 EKECTHDSECQLNCKCDHLGLCDLKTNKCSCL   46 (90)
+Confidence            45799999999997777999999999999996
+
+
+No 11
+>tr|A0A2P5Q4B2|A0A2P5Q4B2_GOSBA Uncharacterized protein OS=Gossypium barbadense OX=3634 GN=GOBAR_DD33725 PE=4 SV=1 
+Probab=93.18  E-value=0.096  Score=37.71  Aligned_cols=31  Identities=26%  Similarity=0.919  Sum_probs=28.4  Template_Neff=1.000
+
+Q seq2             28 QARPCQRDVDCNFQCPRIQGGQCNNHHGTCDCF   60 (60)
+Q Consensus        28 ~~~~CkRDiDC~fqCp~~~gG~Cn~~~~~C~C~   60 (60)
+                      ....|..|..|.+.|-  +-|.|+.++++|+|+
+T Consensus         8 nseacthdsecqlncd--hlglcdlktnkcscl   38 (88)
+T tr|A0A2P5Q4B2|    8 NSEACTHDSECQLNCD--HLGLCDLKTNKCSCL   38 (88)
+Confidence            3468999999999999  999999999999995
+
+
+No 12
+>tr|A0A1J6JXH0|A0A1J6JXH0_NICAT Uncharacterized protein (Fragment) OS=Nicotiana attenuata OX=49451 GN=A4A49_51556 PE=4 SV=1
+Probab=92.79  E-value=0.11  Score=37.08  Aligned_cols=31  Identities=29%  Similarity=0.741  Sum_probs=27.8  Template_Neff=1.984
+
+Q seq2             29 ARPCQRDVDCNFQCPRIQGGQCNNHHGTCDCF   60 (60)
+Q Consensus        29 ~~~CkRDiDC~fqCp~~~gG~Cn~~~~~C~C~   60 (60)
+                      ...|..|.||..+|.. ..-.|+..+.+|.|+
+T Consensus        34 ~~~C~kDaDC~~kCid-a~p~Cdlt~H~C~C~   64 (83)
+T tr|A0A1J6JXH0|   34 AFACSKDADCAIKCID-ADPKCDLTTHQCFCP   64 (83)
+Confidence            4589999999999986 778999999999995
+
+
+No 13
+>tr|V4JSS2|V4JSS2_EUTSA Uncharacterized protein OS=Eutrema salsugineum OX=72664 GN=EUTSA_v10019762mg PE=4 SV=1
+Probab=91.62  E-value=0.22  Score=35.92  Aligned_cols=31  Identities=39%  Similarity=0.762  Sum_probs=24.5  Template_Neff=2.098
+
+Q seq2             29 ARPCQRDVDCNFQCPRIQGGQCNNHHGTCDCF   60 (60)
+Q Consensus        29 ~~~CkRDiDC~fqCp~~~gG~Cn~~~~~C~C~   60 (60)
+                      ..+|.||.||...||. .-.++|-..|+|+|.
+T Consensus        56 ~~~C~~DndC~kyCP~-~ck~vncn~GtCfC~   86 (87)
+T tr|V4JSS2|V4JS   56 NASCERDNDCIKYCPK-GCKIVNCNFGTCFCE   86 (87)
+Confidence            7899999999999994 445566667888873
+
+
+No 14
+>tr|A0A2J8AI94|A0A2J8AI94_9CHLO Uncharacterized protein OS=Tetrabaena socialis OX=47790 GN=TSOC_000850 PE=4 SV=1 
+Probab=91.02  E-value=0.35  Score=38.49  Aligned_cols=32  Identities=41%  Similarity=1.049  Sum_probs=25.4  Template_Neff=1.000
+
+Q seq2             17 SNYAGTARTLLQARPCQRDVDCNFQCPRIQGGQCNNHHGTCDC   59 (60)
+Q Consensus        17 ~~y~~~~~tl~~~~~CkRDiDC~fqCp~~~gG~Cn~~~~~C~C   59 (60)
+                      +.|+..   |+...+|.||      |.  ..|+||.++++|.|
+T Consensus       130 ptygnp---lpppkpcprd------cn--gngvcnlktgkcqc  161 (175)
+T tr|A0A2J8AI94|  130 PTYGNP---LPPPKPCPRD------CN--GNGVCNLKTGKCQC  161 (175)
+Confidence            666444   7778888886      44  68999999999998
+
+
+No 15
+>tr|R0GBW2|R0GBW2_9BRAS Uncharacterized protein OS=Capsella rubella OX=81985 GN=CARUB_v10016424mg PE=4 SV=1
+Probab=88.77  E-value=0.75  Score=34.79  Aligned_cols=33  Identities=33%  Similarity=0.914  Sum_probs=24.6  Template_Neff=1.510
+
+Q seq2             25 TLLQARPCQRDVDCNFQCPRIQGGQCNNHHGTCDC   59 (60)
+Q Consensus        25 tl~~~~~CkRDiDC~fqCp~~~gG~Cn~~~~~C~C   59 (60)
+                      -.+..+-||.|.||.-.||  .||.|....-.|.|
+T Consensus        59 ~gppppcck~dsdc~~~cp--~gg~~~~~qc~c~c   91 (111)
+T tr|R0GBW2|R0GB   59 RGPPPPCCKKDSDCKAHCP--EGGYCSSNQCDCVC   91 (111)
+Confidence            3455778999999999999  78888765444443
+
+
+No 16
+>tr|A0A2P5E1K5|A0A2P5E1K5_PARAD Uncharacterized protein OS=Parasponia andersonii OX=3476 GN=PanWU01x14_011330 PE=4 SV=1 
+Probab=88.66  E-value=0.84  Score=31.95  Aligned_cols=16  Identities=44%  Similarity=1.028  Sum_probs=13.3  Template_Neff=1.000
+
+Q seq2             28 QARPCQRDVDCNFQCP   43 (60)
+Q Consensus        28 ~~~~CkRDiDC~fqCp   43 (60)
+                      +.+.|+||+||..+=+
+T Consensus        11 qeqncsrdvdctykik   26 (66)
+T tr|A0A2P5E1K5|   11 QEQNCSRDVDCTYKIK   26 (66)
+Confidence            5678999999998644
+
+
+No 17
+>tr|L7MCJ9|L7MCJ9_9ACAR Putative tick defensin OS=Rhipicephalus pulchellus OX=72859 PE=2 SV=1 
+Probab=88.41  E-value=0.9  Score=32.51  Aligned_cols=33  Identities=36%  Similarity=1.120  Sum_probs=27.7  Template_Neff=1.000
+
+Q seq2             28 QARPCQRDVDCNFQCPRI--QGGQCNNHHGTCDCF   60 (60)
+Q Consensus        28 ~~~~CkRDiDC~fqCp~~--~gG~Cn~~~~~C~C~   60 (60)
+                      ..++||.|-||.+.|.+.  -.|.|..+.|.|.|.
+T Consensus        35 rsqscksdrdcqlycrrlrlvhgeckghsgecycy   69 (76)
+T tr|L7MCJ9|L7MC   35 RSQSCKSDRDCQLYCRRLRLVHGECKGHSGECYCY   69 (76)
+Confidence            367999999999999742  368999999999983
+
+
+No 18
+>tr|V7ALF6|V7ALF6_PHAVU Uncharacterized protein OS=Phaseolus vulgaris OX=3885 GN=PHAVU_011G141700g PE=4 SV=1
+Probab=88.22  E-value=0.75  Score=33.80  Aligned_cols=32  Identities=31%  Similarity=0.838  Sum_probs=27.1  Template_Neff=2.534
+
+Q seq2             29 ARPCQRDVDCNFQCPRIQG-GQCNNHHGTCDCF   60 (60)
+Q Consensus        29 ~~~CkRDiDC~fqCp~~~g-G~Cn~~~~~C~C~   60 (60)
+                      ...|+.|.||.|.|-.+.. ..|+..++.|.|+
+T Consensus        62 ~~~C~~~~DC~~icappc~~~yCd~~t~~CkC~   94 (96)
+T tr|V7ALF6|V7AL   62 KDQCQNNKDCPFICAPPCDISYCDTKTGVCKCK   94 (96)
+Confidence            5689999999999964455 8999999999885
+
+
+No 19
+>tr|E2BNF6|E2BNF6_HARSA Uncharacterized protein OS=Harpegnathos saltator OX=610380 GN=EAI_01892 PE=4 SV=1
+Probab=87.85  E-value=0.94  Score=38.12  Aligned_cols=27  Identities=52%  Similarity=1.234  Sum_probs=24.6  Template_Neff=1.694
+
+Q seq2             29 ARPCQRDVDCNFQCPRIQGGQCNNHHGTCDCF   60 (60)
+Q Consensus        29 ~~~CkRDiDC~fqCp~~~gG~Cn~~~~~C~C~   60 (60)
+                      -..|+-|.||.|     .|||||...+.|+|.
+T Consensus        27 yr~ck~dqdc~~-----~ggfcn~~~~qcdc~   53 (255)
+T tr|E2BNF6|E2BN   27 YRKCKHDQDCNF-----EGGFCNYTNHQCDCI   53 (255)
+Confidence            578999999999     699999999999983
+
+
+No 20
+>tr|A0A072VAL4|A0A072VAL4_MEDTR Nodule Cysteine-Rich (NCR) secreted peptide OS=Medicago truncatula OX=3880 GN=25487082 PE=4 SV=1 
+Probab=86.05  E-value=1.6  Score=30.45  Aligned_cols=29  Identities=34%  Similarity=0.934  Sum_probs=24.2  Template_Neff=1.000
+
+Q seq2             29 ARPCQRDVDCNFQCPRIQGGQCNNHHGTCDC   59 (60)
+Q Consensus        29 ~~~CkRDiDC~fqCp~~~gG~Cn~~~~~C~C   59 (60)
+                      ..-|..|.||.-.||.++-|.|-+.  +|.|
+T Consensus        27 enyctkdsdcesycpnpkygkcldn--kcic   55 (63)
+T tr|A0A072VAL4|   27 ENYCTKDSDCESYCPNPKYGKCLDN--KCIC   55 (63)
+Confidence            3469999999999999999999764  6665
+
+
+No 21
+>sp|P34950|ITR5_LUFAE Trypsin inhibitor 5 OS=Luffa aegyptiaca OX=3670 PE=1 SV=1 
+Probab=85.82  E-value=1.7  Score=30.35  Aligned_cols=22  Identities=36%  Similarity=0.975  Sum_probs=18.9  Template_Neff=1.000
+
+Q seq2             29 ARPCQRDVDCNFQCPRIQGGQC   50 (60)
+Q Consensus        29 ~~~CkRDiDC~fqCp~~~gG~C   50 (60)
+                      --|||.|.||.+.|.+...|+|
+T Consensus        41 lmpcktdddcmldcrclsngyc   62 (63)
+T sp|P34950|ITR5   41 LMPCKTDDDCMLDCRCLSNGYC   62 (63)
+Confidence            3589999999999988777776
+
+
+No 22
+>tr|A0A017TEZ2|A0A017TEZ2_9DELT Uncharacterized protein OS=Chondromyces apiculatus DSM 436 OX=1192034 GN=CAP_0630 PE=4 SV=1
+Probab=81.35  E-value=3.4  Score=30.09  Aligned_cols=30  Identities=33%  Similarity=0.783  Sum_probs=23.9  Template_Neff=1.592
+
+Q seq2             30 RPCQRDVDCNFQCPRIQGGQCNNH-HGTCDC   59 (60)
+Q Consensus        30 ~~CkRDiDC~fqCp~~~gG~Cn~~-~~~C~C   59 (60)
+                      -.|.||.||--+|-.+..|+|.-. --+|-|
+T Consensus        47 wecvkd~dcdarcdgpgsg~crwsgct~clc   77 (79)
+T tr|A0A017TEZ2|   47 WECVKDSDCDARCDGPGSGYCRWSGCTTCLC   77 (79)
+Confidence            369999999999998899999765 344544
+
+
+No 23
+>tr|R0EZP2|R0EZP2_9BRAS Uncharacterized protein OS=Capsella rubella OX=81985 GN=CARUB_v10028092mg PE=4 SV=1
+Probab=79.56  E-value=4.6  Score=29.58  Aligned_cols=31  Identities=35%  Similarity=0.749  Sum_probs=27.6  Template_Neff=1.299
+
+Q seq2             29 ARPCQRDVDCNFQCPRIQGGQCNNHHGTCDCF   60 (60)
+Q Consensus        29 ~~~CkRDiDC~fqCp~~~gG~Cn~~~~~C~C~   60 (60)
+                      .+-|..|.||..-|.. +.|+||-.-.+|.|.
+T Consensus        50 gplc~sdgdckhfcrp-kkgvcnidfetcvc~   80 (80)
+T tr|R0EZP2|R0EZ   50 GPLCLSDGDCKHFCRP-KKGVCNIDFETCVCS   80 (80)
+Confidence            6789999999999974 999999999999883
+
+
+No 24
+>tr|A0A0S4JG22|A0A0S4JG22_BODSA Transmembrane protein, putative (Fragment) OS=Bodo saltans OX=75058 GN=BSAL_19100 PE=4 SV=1 
+Probab=77.15  E-value=6.5  Score=41.71  Aligned_cols=26  Identities=46%  Similarity=1.196  Sum_probs=23.8  Template_Neff=1.000
+
+Q seq2             35 DVDCNFQCPRIQGGQCNNHHGTCDCF   60 (60)
+Q Consensus        35 DiDC~fqCp~~~gG~Cn~~~~~C~C~   60 (60)
+                      ...|.|.||....|||+.+.++|+||
+T Consensus      1645 gsecnfecpcnrhgfcdryvgtcscf 1670 (3755)
+T tr|A0A0S4JG22| 1645 GSECNFECPCNRHGFCDRYVGTCSCF 1670 (3755)
+Confidence            35799999999999999999999997
+
+
+No 25
+>tr|A0A1Y6LDR0|A0A1Y6LDR0_ZYMTR Uncharacterized protein OS=Zymoseptoria tritici ST99CH_1A5 OX=1276529 GN=ZT1A5_G3177 PE=4 SV=1
+Probab=73.28  E-value=9.7  Score=28.37  Aligned_cols=24  Identities=46%  Similarity=1.106  Sum_probs=19.0  Template_Neff=1.000
+
+Q seq2             36 VDCNFQCPR-IQGGQCNNHHGTCDC   59 (60)
+Q Consensus        36 iDC~fqCp~-~~gG~Cn~~~~~C~C   59 (60)
+                      .||.-||.. .++|.||..+++|+|
+T Consensus        59 tdcenqcsakgkdglcntttgkcdc   83 (86)
+T tr|A0A1Y6LDR0|   59 TDCENQCSAKGKDGLCNTTTGKCDC   83 (86)
+Confidence            578888852 257899999999998
+
+
+No 26
+>tr|A0A1E1LHC1|A0A1E1LHC1_9HELO Uncharacterized protein OS=Rhynchosporium agropyri OX=914238 GN=RAG0_13986 PE=4 SV=1 
+Probab=72.68  E-value=10  Score=26.65  Aligned_cols=30  Identities=43%  Similarity=1.111  Sum_probs=22.7  Template_Neff=1.000
+
+Q seq2             29 ARPCQRDVDCNFQCPRI---QGGQCNNHHGTCDC   59 (60)
+Q Consensus        29 ~~~CkRDiDC~fqCp~~---~gG~Cn~~~~~C~C   59 (60)
+                      +..|. ..||.+-|-+.   ..|.||..+++|+|
+T Consensus        27 ardcd-esdcmlgcysktgkrtgtcnentgkcdc   59 (59)
+T tr|A0A1E1LHC1|   27 ARDCD-ESDCMLGCYSKTGKRTGTCNENTGKCDC   59 (59)
+Confidence            44553 46899999642   35789999999998
+
+
+No 27
+>tr|A0A0M9G1V8|A0A0M9G1V8_9TRYP Subtilisin-like serine peptidase OS=Leptomonas pyrrhocoris OX=157538 GN=ABB37_04750 PE=4 SV=1
+Probab=71.75  E-value=11  Score=39.00  Aligned_cols=26  Identities=35%  Similarity=1.014  Sum_probs=23.6  Template_Neff=1.309
+
+Q seq2             35 DVDCNFQCPRIQGGQCNNHHGTCDCF   60 (60)
+Q Consensus        35 DiDC~fqCp~~~gG~Cn~~~~~C~C~   60 (60)
+                      -.||.|.|.+.+||+|+..++.|+|.
+T Consensus      1208 gp~ca~~ctclhggvcd~~~glcscv 1233 (1878)
+T tr|A0A0M9G1V8| 1208 GPDCASNCTCLHGGVCDTATGLCSCV 1233 (1878)
+Confidence            36899999999999999999999993
+
+
+No 28
+>tr|A0A1S3IB90|A0A1S3IB90_LINUN limulus clotting factor C-like OS=Lingula unguis OX=7574 GN=LOC106162089 PE=3 SV=1
+Probab=71.64  E-value=9.2  Score=36.39  Aligned_cols=24  Identities=38%  Similarity=0.829  Sum_probs=20.2  Template_Neff=2.330
+
+Q seq2             37 DCNFQCPRIQGGQCNNHHGTCDCF   60 (60)
+Q Consensus        37 DC~fqCp~~~gG~Cn~~~~~C~C~   60 (60)
+                      -|..-|++.+||.||..+++|+|.
+T Consensus       107 ~c~~~c~c~ngg~c~~~~g~c~c~  130 (663)
+T tr|A0A1S3IB90|  107 WCTGVCQCQNGGTCNRDTGSCFCP  130 (663)
+Confidence            566666666999999999999994
+
+
+No 29
+>tr|T1GK46|T1GK46_MEGSC Uncharacterized protein OS=Megaselia scalaris OX=36166 PE=4 SV=1
+Probab=70.79  E-value=11  Score=35.65  Aligned_cols=26  Identities=38%  Similarity=1.001  Sum_probs=23.2  Template_Neff=1.915
+
+Q seq2             35 DVDCNFQCPRIQGGQCNNHHGTCDCF   60 (60)
+Q Consensus        35 DiDC~fqCp~~~gG~Cn~~~~~C~C~   60 (60)
+                      -.+|.|.|..-++|.||..++.|.|+
+T Consensus       207 g~~c~~~c~c~~~gecn~~tgecqc~  232 (586)
+T tr|T1GK46|T1GK  207 GPDCRQRCQCKNGGECNHITGECQCQ  232 (586)
+Confidence            35889999888999999999999985
+
+
+No 30
+>tr|A0A226NMK9|A0A226NMK9_CALSU Uncharacterized protein OS=Callipepla squamata OX=9009 GN=ASZ78_003454 PE=4 SV=1
+Probab=70.36  E-value=13  Score=29.83  Aligned_cols=26  Identities=38%  Similarity=1.022  Sum_probs=22.5  Template_Neff=1.000
+
+Q seq2             34 RDVDCNFQCPRIQGGQCNNHHGTCDC   59 (60)
+Q Consensus        34 RDiDC~fqCp~~~gG~Cn~~~~~C~C   59 (60)
+                      -..-|.|||..-.+..||..++.|.|
+T Consensus        65 ygkgcqfqcqchngatcnhetgechc   90 (141)
+T tr|A0A226NMK9|   65 YGKGCQFQCQCHNGATCNHETGECHC   90 (141)
+Confidence            34579999998788999999999988
+
+
+No 31
+>tr|S9XLY8|S9XLY8_CAMFR Uncharacterized protein OS=Camelus ferus OX=419612 GN=CB1_111057002 PE=4 SV=1 
+Probab=69.72  E-value=13  Score=29.37  Aligned_cols=20  Identities=45%  Similarity=1.198  Sum_probs=16.5  Template_Neff=1.000
+
+Q seq2             41 QCPRIQGGQCNNHHGTCDCF   60 (60)
+Q Consensus        41 qCp~~~gG~Cn~~~~~C~C~   60 (60)
+                      +|+..++|.|+.-+++|+|.
+T Consensus        31 kckclnggscdtvtgtcdcp   50 (129)
+T tr|S9XLY8|S9XL   31 KCKCLNGGSCDTVTGTCDCP   50 (129)
+Confidence            45555899999999999984
+
+
+No 32
+>tr|A0A1B0GQM5|A0A1B0GQM5_PHLPP Uncharacterized protein OS=Phlebotomus papatasi OX=29031 PE=4 SV=1
+Probab=69.44  E-value=13  Score=32.35  Aligned_cols=32  Identities=34%  Similarity=0.947  Sum_probs=26.2  Template_Neff=1.524
+
+Q seq2             29 ARPCQ---RDVDCNFQCPRIQGGQCNNHHGTCDCF   60 (60)
+Q Consensus        29 ~~~Ck---RDiDC~fqCp~~~gG~Cn~~~~~C~C~   60 (60)
+                      ..||.   --.||.|.|...++|.||..+++|.|+
+T Consensus       141 depc~~g~~g~~c~~ec~c~n~g~c~~~~g~c~cp  175 (264)
+T tr|A0A1B0GQM5|  141 DEPCPEGMHGNQCKQECQCQNDGKCNPTDGKCDCP  175 (264)
+Confidence            44554   346899999888999999999999985
+
+
+No 33
+>tr|T1K2P7|T1K2P7_TETUR Uncharacterized protein OS=Tetranychus urticae OX=32264 GN=107359974 PE=4 SV=1
+Probab=68.69  E-value=13  Score=34.58  Aligned_cols=26  Identities=42%  Similarity=0.971  Sum_probs=23.9  Template_Neff=1.604
+
+Q seq2             35 DVDCNFQCPRIQGGQCNNHHGTCDCF   60 (60)
+Q Consensus        35 DiDC~fqCp~~~gG~Cn~~~~~C~C~   60 (60)
+                      |.||..+|-..++|+||..+|.|.|.
+T Consensus       220 ~~~c~~~~~c~~~g~~n~~tg~c~c~  245 (508)
+T tr|T1K2P7|T1K2  220 DPECNRQCYCANNGICNAFTGECECQ  245 (508)
+Confidence            78999999888999999999999984
+
+
+No 34
+>tr|A0A2G8KFS8|A0A2G8KFS8_STIJA Putative receptor-type tyrosine-protein phosphatase F isoform X1 OS=Stichopus japonicus OX=307972 GN=BSL78_16295 PE=4 SV=1 
+Probab=68.42  E-value=15  Score=30.74  Aligned_cols=25  Identities=44%  Similarity=1.039  Sum_probs=20.6  Template_Neff=1.000
+
+Q seq2             36 VDCNFQC-PRIQGGQCNNHHGTCDCF   60 (60)
+Q Consensus        36 iDC~fqC-p~~~gG~Cn~~~~~C~C~   60 (60)
+                      .||.-.| |.|.+|+|.+.++.|.|+
+T Consensus         5 pdctntcepcinggvcsdltglclcp   30 (196)
+T tr|A0A2G8KFS8|    5 PDCTNTCEPCINGGVCSDLTGLCLCP   30 (196)
+Confidence            4677777 577999999999999884
+
+
+No 35
+>tr|A0A260ZR48|A0A260ZR48_CAERE Uncharacterized protein (Fragment) OS=Caenorhabditis remanei OX=31234 GN=FL82_22881 PE=4 SV=1 
+Probab=66.03  E-value=18  Score=29.19  Aligned_cols=33  Identities=39%  Similarity=0.883  Sum_probs=27.3  Template_Neff=1.000
+
+Q seq2             28 QARPCQRD--------VDCNFQCPRIQGGQCNNHHGTCDCF   60 (60)
+Q Consensus        28 ~~~~CkRD--------iDC~fqCp~~~gG~Cn~~~~~C~C~   60 (60)
+                      ..+.|+-|        +||+--|+...+.+|+.+.++|+|.
+T Consensus        54 tgakcqidvcptgrfgvdcmqlckcqngaicdpkdgtcecs   94 (145)
+T tr|A0A260ZR48|   54 TGAKCQIDVCPTGRFGVDCMQLCKCQNGAICDPKDGTCECS   94 (145)
+Confidence            35567665        6999999988899999999999984
+
+
+No 36
+>tr|W4Z1L6|W4Z1L6_STRPU Uncharacterized protein OS=Strongylocentrotus purpuratus OX=7668 PE=4 SV=1 
+Probab=66.00  E-value=18  Score=28.91  Aligned_cols=25  Identities=32%  Similarity=0.953  Sum_probs=21.3  Template_Neff=1.000
+
+Q seq2             36 VDCNFQCPRIQGGQCNNHHGTCDCF   60 (60)
+Q Consensus        36 iDC~fqCp~~~gG~Cn~~~~~C~C~   60 (60)
+                      .-|.+.|....+|.|+.-++.|+|.
+T Consensus       104 pgcllecqcenggrcdsvtgacscp  128 (135)
+T tr|W4Z1L6|W4Z1  104 PGCLLECQCENGGRCDSVTGACSCP  128 (135)
+Confidence            3578877777999999999999994
+
+
+No 37
+>tr|A0A1I1NPS3|A0A1I1NPS3_9BACT Uncharacterized protein OS=Flexibacter flexilis DSM 6793 OX=927664 GN=SAMN05421780_11513 PE=4 SV=1 
+Probab=65.21  E-value=19  Score=29.24  Aligned_cols=36  Identities=36%  Similarity=0.404  Sum_probs=27.5  Template_Neff=1.000
+
+Q seq2              2 ELTGAGKKLEVATRSSNYAGTAR-TLLQARPCQRDVD   37 (60)
+Q Consensus         2 eLtgv~~~~~~~~~s~~y~~~~~-tl~~~~~CkRDiD   37 (60)
+                      +||...-+||+++-|+||-|.+- .....+.|+||.-
+T Consensus        35 kltakswkfesgtispnykgsavlstdvlpecsrdnv   71 (152)
+T tr|A0A1I1NPS3|   35 KLTAKSWKFESGTISPNYKGSAVLSTDVLPECSRDNV   71 (152)
+Confidence            46777788999999999988764 3334789999853
+
+
+No 38
+>tr|G0NRI1|G0NRI1_CAEBE Uncharacterized protein OS=Caenorhabditis brenneri OX=135651 GN=CAEBREN_29914 PE=4 SV=1
+Probab=63.12  E-value=20  Score=28.82  Aligned_cols=31  Identities=26%  Similarity=0.594  Sum_probs=25.6  Template_Neff=1.819
+
+Q seq2             25 TLLQARPCQRDVDCNFQCPRIQGGQCNNHHG   55 (60)
+Q Consensus        25 tl~~~~~CkRDiDC~fqCp~~~gG~Cn~~~~   55 (60)
+                      |.+....|.||-.|+-+|-..-.|+|....+
+T Consensus        36 t~~~~l~csrdyhcps~cd~c~~gicth~~~   66 (137)
+T tr|G0NRI1|G0NR   36 TISPPLKCSRDYHCPSKCDTCISGICTHKLN   66 (137)
+Confidence            4555778999999999999888999987744
+
+
+No 39
+>tr|A0A072V7Y8|A0A072V7Y8_MEDTR Nodule Cysteine-Rich (NCR) secreted peptide OS=Medicago truncatula OX=3880 GN=25486638 PE=4 SV=1 
+Probab=60.29  E-value=27  Score=25.55  Aligned_cols=28  Identities=36%  Similarity=0.669  Sum_probs=22.5  Template_Neff=1.000
+
+Q seq2             25 TLLQARPCQRDVDCN-FQCPRIQGGQCNN   52 (60)
+Q Consensus        25 tl~~~~~CkRDiDC~-fqCp~~~gG~Cn~   52 (60)
+                      |.+-.++|.-|+||. ..||..++|.|.-
+T Consensus        26 tgnirqscefdvdcenkycppshdgkcvw   54 (71)
+T tr|A0A072V7Y8|   26 TGNIRQSCEFDVDCENKYCPPSHDGKCVW   54 (71)
+Confidence            566678999999996 4599888888853
+
+
+No 40
+>tr|N6UNL6|N6UNL6_DENPD Uncharacterized protein (Fragment) OS=Dendroctonus ponderosae OX=77166 GN=YQE_00301 PE=4 SV=1 
+Probab=59.83  E-value=28  Score=32.19  Aligned_cols=27  Identities=37%  Similarity=0.953  Sum_probs=24.3  Template_Neff=1.000
+
+Q seq2             34 RDVDCNFQCPRIQGGQCNNHHGTCDCF   60 (60)
+Q Consensus        34 RDiDC~fqCp~~~gG~Cn~~~~~C~C~   60 (60)
+                      ...||.-+||...||.|..-++.|+|.
+T Consensus       129 hgydckskcpcqnggtchsvtgvcfck  155 (455)
+T tr|N6UNL6|N6UN  129 HGYDCKSKCPCQNGGTCHSVTGVCFCK  155 (455)
+Confidence            457999999999999999999999984
+
+
+No 41
+>tr|G0N5U1|G0N5U1_CAEBE Uncharacterized protein OS=Caenorhabditis brenneri OX=135651 GN=CAEBREN_02239 PE=4 SV=1 
+Probab=59.07  E-value=30  Score=27.69  Aligned_cols=25  Identities=32%  Similarity=0.885  Sum_probs=20.5  Template_Neff=1.000
+
+Q seq2             36 VDCNFQCPRIQGGQCNNHHGTCDCF   60 (60)
+Q Consensus        36 iDC~fqCp~~~gG~Cn~~~~~C~C~   60 (60)
+                      ..|+-+|..-.|..||.+++.|+|.
+T Consensus        71 escmnkcqcfngascnpktgqcscs   95 (129)
+T tr|G0N5U1|G0N5   71 ESCMNKCQCFNGASCNPKTGQCSCS   95 (129)
+Confidence            3577777777899999999999984
+
+
+No 42
+>tr|B3S0P5|B3S0P5_TRIAD Uncharacterized protein OS=Trichoplax adhaerens OX=10228 GN=TRIADDRAFT_57125 PE=4 SV=1 
+Probab=58.19  E-value=32  Score=31.67  Aligned_cols=25  Identities=48%  Similarity=1.338  Sum_probs=21.4  Template_Neff=1.000
+
+Q seq2             35 DVDCNFQCPRIQ-GGQCNNHHGTCDC   59 (60)
+Q Consensus        35 DiDC~fqCp~~~-gG~Cn~~~~~C~C   59 (60)
+                      -.||+.+||+.+ .|.||.+++.|+|
+T Consensus       170 gpdcmykcprcknngkcnrktglcdc  195 (419)
+T tr|B3S0P5|B3S0  170 GPDCMYKCPRCKNNGKCNRKTGLCDC  195 (419)
+Confidence            469999999654 6899999999988
+
+
+No 43
+>tr|A0A2K3LSE3|A0A2K3LSE3_TRIPR Ccp-like protein OS=Trifolium pratense OX=57577 GN=L195_g037470 PE=4 SV=1 
+Probab=57.59  E-value=33  Score=28.69  Aligned_cols=30  Identities=43%  Similarity=1.012  Sum_probs=25.6  Template_Neff=1.000
+
+Q seq2             29 ARPCQRDVDCNFQCPRIQGGQCNNHHGTCDCF   60 (60)
+Q Consensus        29 ~~~CkRDiDC~fqCp~~~gG~Cn~~~~~C~C~   60 (60)
+                      ..+|+.|..|.--||-.+.|+|.  ++.|+||
+T Consensus        75 dgscksdgqcqsgcpvgqhgvce--hgrcwcf  104 (179)
+T tr|A0A2K3LSE3|   75 DGSCKSDGQCQSGCPVGQHGVCE--HGRCWCF  104 (179)
+Confidence            46899999999999987888886  4789986
+
+
+No 44
+>tr|A0A1A8N6G7|A0A1A8N6G7_9TELE Uncharacterized protein (Fragment) OS=Nothobranchius rachovii OX=451742 GN=Nfu_g_1_000378 PE=4 SV=1 
+Probab=56.60  E-value=35  Score=28.14  Aligned_cols=24  Identities=38%  Similarity=0.847  Sum_probs=18.8  Template_Neff=1.000
+
+Q seq2             37 DCNFQCPRIQGGQCNNHHGTCDCF   60 (60)
+Q Consensus        37 DC~fqCp~~~gG~Cn~~~~~C~C~   60 (60)
+                      -|.-.|...++|||+.-++.|-|+
+T Consensus       119 gcnsvcrcqnggfcdpvtgrclcp  142 (160)
+T tr|A0A1A8N6G7|  119 GCNSVCRCQNGGFCDPVTGRCLCP  142 (160)
+Confidence            455556666899999999999884
+
+
+No 45
+>tr|U3IR10|U3IR10_ANAPL Scavenger receptor class F member 1 OS=Anas platyrhynchos OX=8839 GN=SCARF1 PE=4 SV=1
+Probab=56.55  E-value=33  Score=30.32  Aligned_cols=24  Identities=38%  Similarity=1.114  Sum_probs=20.5  Template_Neff=1.436
+
+Q seq2             36 VDCNFQCPRIQGGQCNNHHGTCDCF   60 (60)
+Q Consensus        36 iDC~fqCp~~~gG~Cn~~~~~C~C~   60 (60)
+                      .-|+|+|+. ++.-|...+++|.|.
+T Consensus       187 rrcsf~c~c-~~spc~~~tg~c~c~  210 (275)
+T tr|U3IR10|U3IR  187 RRCSFRCPC-HGSPCSPTTGRCACR  210 (275)
+Confidence            358999997 889999999999883
+
+
+No 46
+>tr|M1UVZ7|M1UVZ7_CYAM1 Uncharacterized protein OS=Cyanidioschyzon merolae (strain 10D) OX=280699 GN=CYME_CMQ409C PE=4 SV=1 
+Probab=55.40  E-value=38  Score=31.92  Aligned_cols=35  Identities=43%  Similarity=0.892  Sum_probs=30.2  Template_Neff=1.000
+
+Q seq2             24 RTLLQARPCQRDVDCNFQCPRIQGGQCNNHHGTCDC   59 (60)
+Q Consensus        24 ~tl~~~~~CkRDiDC~fqCp~~~gG~Cn~~~~~C~C   59 (60)
+                      .|...+.+|.||.|=-+.|-.++.|-|... ++|.|
+T Consensus       183 atmttaapcprdadtglvcggpqrgacvsn-gtcvc  217 (520)
+T tr|M1UVZ7|M1UV  183 ATMTTAAPCPRDADTGLVCGGPQRGACVSN-GTCVC  217 (520)
+Confidence            355568999999999999998899999876 88887
+
+
+No 47
+>tr|A0A0D2QVY5|A0A0D2QVY5_GOSRA Uncharacterized protein OS=Gossypium raimondii OX=29730 GN=B456_004G114900 PE=4 SV=1
+Probab=55.16  E-value=31  Score=26.05  Aligned_cols=31  Identities=32%  Similarity=0.786  Sum_probs=22.4  Template_Neff=2.340
+
+Q seq2             25 TLLQARPCQRDVDCNFQCPRIQGGQCNN---HHGTCDC   59 (60)
+Q Consensus        25 tl~~~~~CkRDiDC~fqCp~~~gG~Cn~---~~~~C~C   59 (60)
+                      -++..+.|+.|.||..-||.    -|+.   ..+.|.|
+T Consensus        56 v~m~nakC~~D~dC~k~Cp~----~C~~~~C~~~~C~C   89 (90)
+T tr|A0A0D2QVY5|   56 VPMVNAKCSTDDDCKKACPP----NCTIYNCFHCFCLC   89 (90)
+Confidence            35568899999999999993    3444   2556655
+
+
+No 48
+>tr|A0A2C9M1R6|A0A2C9M1R6_BIOGL Uncharacterized protein OS=Biomphalaria glabrata OX=6526 GN=106054726 PE=4 SV=1
+Probab=54.48  E-value=40  Score=31.10  Aligned_cols=31  Identities=39%  Similarity=0.941  Sum_probs=27.7  Template_Neff=1.000
+
+Q seq2             29 ARPCQRDVDCN--FQCPRIQGGQCNNHHGTCDC   59 (60)
+Q Consensus        29 ~~~CkRDiDC~--fqCp~~~gG~Cn~~~~~C~C   59 (60)
+                      ...|||-.||.  ..||.+-+.+||..++.|.|
+T Consensus       293 stsckrttdcvqmkacpnpigavcnistgqclc  325 (418)
+T tr|A0A2C9M1R6|  293 STSCKRTTDCVQMKACPNPIGAVCNISTGQCLC  325 (418)
+Confidence            56899999995  57999899999999999988
+
+
+No 49
+>tr|V7AIG1|V7AIG1_PHAVU Uncharacterized protein (Fragment) OS=Phaseolus vulgaris OX=3885 GN=PHAVU_011G1473001g PE=4 SV=1
+Probab=54.27  E-value=41  Score=26.96  Aligned_cols=35  Identities=31%  Similarity=0.776  Sum_probs=27.5  Template_Neff=1.000
+
+Q seq2             25 TLLQARPCQRDVDCNFQCPRIQGGQCNNHHGTCDCF   60 (60)
+Q Consensus        25 tl~~~~~CkRDiDC~fqCp~~~gG~Cn~~~~~C~C~   60 (60)
+                      ||.+...|....||+. |-.+-+..|+..+|.|.||
+T Consensus        90 tlwkdgkctspsdcpv-citpcdkycdtdtglckcf  124 (126)
+T tr|V7AIG1|V7AI   90 TLWKDGKCTSPSDCPV-CITPCDKYCDTDTGLCKCF  124 (126)
+Confidence            6777788888888886 5445678899998988876
+
+
+No 50
+>tr|T1GLH7|T1GLH7_MEGSC Uncharacterized protein OS=Megaselia scalaris OX=36166 PE=4 SV=1 
+Probab=53.65  E-value=42  Score=29.28  Aligned_cols=28  Identities=25%  Similarity=0.776  Sum_probs=22.9  Template_Neff=1.000
+
+Q seq2             33 QRDVDCNFQCPRIQGGQCNNHHGTCDCF   60 (60)
+Q Consensus        33 kRDiDC~fqCp~~~gG~Cn~~~~~C~C~   60 (60)
+                      --.|.|.-+|..-..|.|..++++|+|+
+T Consensus       143 lwginceqkcqcenngtcepytgkcecp  170 (249)
+T tr|T1GLH7|T1GL  143 LWGINCEQKCQCENNGTCEPYTGKCECP  170 (249)
+Confidence            3457777777777899999999999985
+
+
+No 51
+>tr|A0A2U3YZ10|A0A2U3YZ10_LEPWE multiple epidermal growth factor-like domains protein 6-like OS=Leptonychotes weddellii OX=9713 GN=LOC102748920 PE=4 SV=1 
+Probab=52.06  E-value=47  Score=29.95  Aligned_cols=32  Identities=38%  Similarity=0.995  Sum_probs=25.8  Template_Neff=1.000
+
+Q seq2             29 ARPCQRD---VDCNFQCPRIQGGQCNNHHGTCDCF   60 (60)
+Q Consensus        29 ~~~CkRD---iDC~fqCp~~~gG~Cn~~~~~C~C~   60 (60)
+                      ...|.-|   ..|+|.|-.-++|.||..++.|.|.
+T Consensus       224 deacppdtfgkncsfscacrnggtcnpmtgacrcp  258 (326)
+T tr|A0A2U3YZ10|  224 DEACPPDTFGKNCSFSCACRNGGTCNPMTGACRCP  258 (326)
+Confidence            4455555   4799999888999999999999884
+
+
+No 52
+>tr|A0A2N9J1R8|A0A2N9J1R8_FAGSY Uncharacterized protein OS=Fagus sylvatica OX=28930 GN=FSB_LOCUS58322 PE=4 SV=1 
+Probab=51.95  E-value=47  Score=29.65  Aligned_cols=29  Identities=34%  Similarity=0.759  Sum_probs=24.2  Template_Neff=1.000
+
+Q seq2             25 TLLQARPCQRDVDCNFQCPRIQGGQCNNH   53 (60)
+Q Consensus        25 tl~~~~~CkRDiDC~fqCp~~~gG~Cn~~   53 (60)
+                      -|.....|+.|.||...||.+..|.|-+.
+T Consensus        25 eleassqcqsdkdceiycpapskgscfdg   53 (299)
+T tr|A0A2N9J1R8|   25 ELEASSQCQSDKDCEIYCPAPSKGSCFDG   53 (299)
+Confidence            35557789999999999999988888664
+
+
+No 53
+>tr|A0A183BP81|A0A183BP81_GLOPA Uncharacterized protein OS=Globodera pallida OX=36090 PE=4 SV=1 
+Probab=51.68  E-value=48  Score=34.35  Aligned_cols=26  Identities=35%  Similarity=1.178  Sum_probs=22.3  Template_Neff=1.000
+
+Q seq2             35 DVDCNFQCPRIQGGQCNNHHGTCDCF   60 (60)
+Q Consensus        35 DiDC~fqCp~~~gG~Cn~~~~~C~C~   60 (60)
+                      ..-|...|....||.||++++.|.|+
+T Consensus      1089 eegcryecncanggecndktgectcl 1114 (1521)
+T tr|A0A183BP81| 1089 EEGCRYECNCANGGECNDKTGECTCL 1114 (1521)
+Confidence            34688888888999999999999985
+
+
+No 54
+>tr|Q54KC4|Q54KC4_DICDI Uncharacterized protein OS=Dictyostelium discoideum OX=44689 GN=DDB0219230 PE=4 SV=1 
+Probab=50.15  E-value=52  Score=28.63  Aligned_cols=22  Identities=45%  Similarity=1.250  Sum_probs=15.7  Template_Neff=1.000
+
+Q seq2             38 CNFQCPRIQGGQCNNHHGTCDC   59 (60)
+Q Consensus        38 C~fqCp~~~gG~Cn~~~~~C~C   59 (60)
+                      |+-.|....||+|+...++|+|
+T Consensus        15 cssdcsnndggicnningkcec   36 (237)
+T tr|Q54KC4|Q54K   15 CSSDCSNNDGGICNNINGKCEC   36 (237)
+Confidence            3444444578888888888887
+
+
+No 55
+>tr|G1NC01|G1NC01_MELGA N-acetylglucosamine-1-phosphodiester alpha-N-acetylglucosaminidase OS=Meleagris gallopavo OX=9103 GN=NAGPA PE=4 SV=1 
+Probab=49.89  E-value=53  Score=29.38  Aligned_cols=24  Identities=42%  Similarity=1.081  Sum_probs=19.4  Template_Neff=1.000
+
+Q seq2             37 DCNFQCPRIQGGQCNNHHGTCDCF   60 (60)
+Q Consensus        37 DC~fqCp~~~gG~Cn~~~~~C~C~   60 (60)
+                      -|+-+|....+|.|+.-+++|+|+
+T Consensus       138 acsqkcqcqnggscdpvhgtcscp  161 (300)
+T tr|G1NC01|G1NC  138 ACSQKCQCQNGGSCDPVHGTCSCP  161 (300)
+Confidence            466666666899999999999985
+
+
+No 56
+>tr|A0A2G9RK21|A0A2G9RK21_LITCT Uncharacterized protein OS=Lithobates catesbeiana OX=8400 GN=AB205_0095590 PE=4 SV=1
+Probab=48.67  E-value=47  Score=27.54  Aligned_cols=27  Identities=33%  Similarity=0.950  Sum_probs=22.3  Template_Neff=2.281
+
+Q seq2             34 RDVDCNFQCPRIQGGQCNNHHGTCDCF   60 (60)
+Q Consensus        34 RDiDC~fqCp~~~gG~Cn~~~~~C~C~   60 (60)
+                      --.||...|..-++|.|+..+++|.|.
+T Consensus       110 ~G~dC~~~C~C~NggsC~~~tG~C~C~  136 (164)
+T tr|A0A2G9RK21|  110 HGPDCSYSCQCENGGSCDPETGICVCP  136 (164)
+Confidence            346888888777899999999999884
+
+
+No 57
+>tr|A0A1B0GQM5|A0A1B0GQM5_PHLPP Uncharacterized protein OS=Phlebotomus papatasi OX=29031 PE=4 SV=1
+Probab=45.35  E-value=64  Score=28.65  Aligned_cols=26  Identities=31%  Similarity=0.862  Sum_probs=22.5  Template_Neff=1.524
+
+Q seq2             35 DVDCNFQCPRIQGGQCNNHHGTCDCF   60 (60)
+Q Consensus        35 DiDC~fqCp~~~gG~Cn~~~~~C~C~   60 (60)
+                      -.||+..|...+++.|+..+++|.|.
+T Consensus        64 g~~c~~~c~c~~g~~cd~~~g~c~c~   89 (264)
+T tr|A0A1B0GQM5|   64 GRDCSKKCDCQNGAICDPYNGSCNCP   89 (264)
+Confidence            45788888888999999999999883
+
+
+No 58
+>tr|V7AJ81|V7AJ81_PHAVU Uncharacterized protein OS=Phaseolus vulgaris OX=3885 GN=PHAVU_011G137700g PE=4 SV=1
+Probab=44.72  E-value=71  Score=24.15  Aligned_cols=32  Identities=25%  Similarity=0.654  Sum_probs=26.5  Template_Neff=1.112
+
+Q seq2             29 ARPCQRDVDCNFQCPR-IQGGQCNNHHGTCDCF   60 (60)
+Q Consensus        29 ~~~CkRDiDC~fqCp~-~~gG~Cn~~~~~C~C~   60 (60)
+                      .+.|...-||.--|.. .+..|||..+..|+|+
+T Consensus        45 ~q~cdtn~dc~nfc~ppc~t~fcnmathrcecp   77 (80)
+T tr|V7AJ81|V7AJ   45 KQQCDTNHDCGNFCNPPCDTSFCNMATHRCECP   77 (80)
+Confidence            5789999999888853 3569999999999985
+
+
+No 59
+>tr|A0A183D244|A0A183D244_9BILA Uncharacterized protein OS=Gongylonema pulchrum OX=637853 PE=4 SV=1
+Probab=44.10  E-value=69  Score=24.44  Aligned_cols=24  Identities=42%  Similarity=0.977  Sum_probs=19.1  Template_Neff=1.536
+
+Q seq2             36 VDCNFQCPRIQGGQCNNHHGTCDC   59 (60)
+Q Consensus        36 iDC~fqCp~~~gG~Cn~~~~~C~C   59 (60)
+                      ..|..+||...++.||...+.|.|
+T Consensus        41 ~~c~~~c~~~~~~~c~~~~g~c~c   64 (85)
+T tr|A0A183D244|   41 ENCDKQCPCQCSTQCNPKYGFCNC   64 (85)
+Confidence            356777887778899998888887
+
+
+No 60
+>tr|S9XLY8|S9XLY8_CAMFR Uncharacterized protein OS=Camelus ferus OX=419612 GN=CB1_111057002 PE=4 SV=1 
+Probab=41.12  E-value=90  Score=25.37  Aligned_cols=31  Identities=39%  Similarity=0.879  Sum_probs=24.1  Template_Neff=1.000
+
+Q seq2             29 ARPCQRD---VDCNFQCPRIQGGQCNNHHGTCDCF   60 (60)
+Q Consensus        29 ~~~CkRD---iDC~fqCp~~~gG~Cn~~~~~C~C~   60 (60)
+                      .+-|..|   .||.-||.. ..|.|+..++-|.|.
+T Consensus        59 spicpedhygqdcvqqcsc-gsgqcdpmtggcqcp   92 (129)
+T tr|S9XLY8|S9XL   59 SPICPEDHYGQDCVQQCSC-GSGQCDPMTGGCQCP   92 (129)
+Confidence            3455555   589999986 789999999999884
+
+
+No 61
+>tr|A0A0C3ALH1|A0A0C3ALH1_9HOMO Uncharacterized protein OS=Serendipita vermifera MAFF 305830 OX=933852 GN=M408DRAFT_148885 PE=4 SV=1 
+Probab=40.74  E-value=92  Score=25.33  Aligned_cols=34  Identities=32%  Similarity=0.599  Sum_probs=20.5  Template_Neff=1.000
+
+Q seq2             17 SNYAGTARTLLQARPCQRDVDCNFQCPRIQGGQCNNH   53 (60)
+Q Consensus        17 ~~y~~~~~tl~~~~~CkRDiDC~fqCp~~~gG~Cn~~   53 (60)
+                      ++.-+.+.|.+.+.||+||.-=.-   ....|.|+..
+T Consensus        38 sqtcgsstttnparpckrdagnrt---gedngrcdas   71 (129)
+T tr|A0A0C3ALH1|   38 SQTCGSSTTTNPARPCKRDAGNRT---GEDNGRCDAS   71 (129)
+Confidence            444444557778999999975433   2234555544
+
+
+No 62
+>tr|B3S0P5|B3S0P5_TRIAD Uncharacterized protein OS=Trichoplax adhaerens OX=10228 GN=TRIADDRAFT_57125 PE=4 SV=1 
+Probab=40.05  E-value=96  Score=29.05  Aligned_cols=23  Identities=39%  Similarity=1.168  Sum_probs=20.6  Template_Neff=1.000
+
+Q seq2             36 VDCNFQCPRIQGGQCNNHHGTCDC   59 (60)
+Q Consensus        36 iDC~fqCp~~~gG~Cn~~~~~C~C   59 (60)
+                      .||.|+|.. -.|.|+..++.|.|
+T Consensus       308 pdcqfkctc-vhgscdsqtgscyc  330 (419)
+T tr|B3S0P5|B3S0  308 PDCQFKCTC-VHGSCDSQTGSCYC  330 (419)
+Confidence            599999987 77899999999988
+
+
+No 63
+>tr|A0A194Q4I8|A0A194Q4I8_PAPXU Uncharacterized protein OS=Papilio xuthus OX=66420 GN=RR46_07043 PE=4 SV=1
+Probab=37.76  E-value=1.1e+02  Score=26.89  Aligned_cols=17  Identities=47%  Similarity=0.798  Sum_probs=14.3  Template_Neff=1.000
+
+Q seq2             24 RTLLQARPCQRDVDCNF   40 (60)
+Q Consensus        24 ~tl~~~~~CkRDiDC~f   40 (60)
+                      .|.+.+.||+|..||..
+T Consensus        52 ptapparpcsrqadcag   68 (231)
+T tr|A0A194Q4I8|   52 PTAPPARPCSRQADCAG   68 (231)
+Confidence            36777999999999975
+
+
+No 64
+>tr|A0A0V1P3C2|A0A0V1P3C2_9BILA Multiple epidermal growth factor-like domains protein 11 OS=Trichinella sp. T8 OX=92180 GN=Megf11 PE=4 SV=1
+Probab=37.47  E-value=87  Score=32.53  Aligned_cols=27  Identities=33%  Similarity=0.998  Sum_probs=23.6  Template_Neff=2.545
+
+Q seq2             34 RDVDCNFQCPRIQGGQCNNHHGTCDCF   60 (60)
+Q Consensus        34 RDiDC~fqCp~~~gG~Cn~~~~~C~C~   60 (60)
+                      .-.||.|.|...+++.|+..++.|.|.
+T Consensus       197 hG~DC~~eC~CqNg~~Cd~~~G~C~Ct  223 (1170)
+T tr|A0A0V1P3C2|  197 HGQDCQWECQCQNNGQCDHITGICECT  223 (1170)
+Confidence            357999999888999999999999883
+
+
+No 65
+>tr|A0A1A8ACC7|A0A1A8ACC7_NOTFU Multiple EGF-like-domains 11 (Fragment) OS=Nothobranchius furzeri OX=105023 GN=MEGF11 PE=4 SV=1
+Probab=37.38  E-value=94  Score=31.29  Aligned_cols=27  Identities=37%  Similarity=1.077  Sum_probs=23.7  Template_Neff=2.113
+
+Q seq2             33 QRDVDCNFQCPRIQGGQCNNHHGTCDC   59 (60)
+Q Consensus        33 kRDiDC~fqCp~~~gG~Cn~~~~~C~C   59 (60)
+                      +--++|+..||.-++|.|+..++.|.|
+T Consensus        38 ~fg~ncSqdC~Chngg~cdhvtg~c~c   64 (807)
+T tr|A0A1A8ACC7|   38 TFGINCSQDCPCHNGGQCDHVTGQCQC   64 (807)
+Confidence            346789999998899999999999987
+
+
+No 66
+>tr|A0A1V4KDL1|A0A1V4KDL1_PATFA Uncharacterized protein OS=Patagioenas fasciata monilis OX=372326 GN=AV530_000207 PE=4 SV=1
+Probab=36.69  E-value=96  Score=29.29  Aligned_cols=26  Identities=42%  Similarity=0.957  Sum_probs=22.6  Template_Neff=2.283
+
+Q seq2             35 DVDCNFQCPRIQGGQCNNHHGTCDCF   60 (60)
+Q Consensus        35 DiDC~fqCp~~~gG~Cn~~~~~C~C~   60 (60)
+                      -.||...|+.-++|+|+...++|.|.
+T Consensus       208 g~~C~~~C~c~~gg~c~p~~~tc~cp  233 (434)
+T tr|A0A1V4KDL1|  208 GPDCQSMCKCKNGGICHPHDDTCDCP  233 (434)
+Confidence            46888888888999999999999884
+
+
+No 67
+>tr|H2MN54|H2MN54_ORYLA Uncharacterized protein OS=Oryzias latipes OX=8090 PE=4 SV=1
+Probab=36.05  E-value=90  Score=27.94  Aligned_cols=27  Identities=30%  Similarity=0.844  Sum_probs=23.1  Template_Neff=2.890
+
+Q seq2             34 RDVDCNFQCPRIQGGQCNNHHGTCDCF   60 (60)
+Q Consensus        34 RDiDC~fqCp~~~gG~Cn~~~~~C~C~   60 (60)
+                      --++|..+|..-++|.|+..++.|.|.
+T Consensus       264 yG~nC~~~C~C~ngg~CdhvtGqC~C~  290 (297)
+T tr|H2MN54|H2MN  264 YGPNCSEECDCHNGGLCDHVTGQCQCA  290 (297)
+Confidence            357888888887899999999999984
+
+
+No 68
+>tr|A0A183TM83|A0A183TM83_SCHSO Uncharacterized protein OS=Schistocephalus solidus OX=70667 PE=4 SV=1 
+Probab=35.81  E-value=1.2e+02  Score=29.24  Aligned_cols=24  Identities=42%  Similarity=1.104  Sum_probs=21.6  Template_Neff=1.000
+
+Q seq2             36 VDCNFQCPRIQGGQCNNHHGTCDC   59 (60)
+Q Consensus        36 iDC~fqCp~~~gG~Cn~~~~~C~C   59 (60)
+                      .-|.+.|..|++..||.-++.|+|
+T Consensus       204 egcrlrcrcihgeacnavtgecdc  227 (551)
+T tr|A0A183TM83|  204 EGCRLRCRCIHGEACNAVTGECDC  227 (551)
+Confidence            468889999999999999999998
+
+
+No 69
+>tr|A0A0V1P3C2|A0A0V1P3C2_9BILA Multiple epidermal growth factor-like domains protein 11 OS=Trichinella sp. T8 OX=92180 GN=Megf11 PE=4 SV=1
+Probab=35.40  E-value=99  Score=32.21  Aligned_cols=25  Identities=28%  Similarity=0.783  Sum_probs=22.6  Template_Neff=2.545
+
+Q seq2             36 VDCNFQCPRIQGGQCNNHHGTCDCF   60 (60)
+Q Consensus        36 iDC~fqCp~~~gG~Cn~~~~~C~C~   60 (60)
+                      .+|.+.|+..++|.||...++|+|+
+T Consensus       157 ~~Ca~~C~C~N~G~C~~~~G~C~~~  181 (1170)
+T tr|A0A0V1P3C2|  157 ENCAQLCHCKNGGSCDHRNGKCKIN  181 (1170)
+Confidence            5899999977999999999999875
+
+
+No 70
+>tr|A0A0K1QBL4|A0A0K1QBL4_9DELT Uncharacterized protein OS=Labilithrix luteola OX=1391654 GN=AKJ09_09786 PE=4 SV=1 
+Probab=35.06  E-value=1.3e+02  Score=23.37  Aligned_cols=30  Identities=33%  Similarity=0.811  Sum_probs=20.2  Template_Neff=1.000
+
+Q seq2             28 QARPCQRDVDCNFQCPRIQG--GQCNNHHGTC   57 (60)
+Q Consensus        28 ~~~~CkRDiDC~fqCp~~~g--G~Cn~~~~~C   57 (60)
+                      -++.|.-|.||+..||....  .-|+..+.+|
+T Consensus        37 capkctvdsdcskscpavanavsccdtatstc   68 (90)
+T tr|A0A0K1QBL4|   37 CAPKCTVDSDCSKSCPAVANAVSCCDTATSTC   68 (90)
+Confidence            37899999999999994322  2244444444
+
+
+No 71
+>tr|K1QDC7|K1QDC7_CRAGI Jumonji-C domain-containing protein KDM4B OS=Crassostrea gigas OX=29159 GN=CGI_10011615 PE=2 SV=1
+Probab=34.53  E-value=1.3e+02  Score=32.83  Aligned_cols=24  Identities=46%  Similarity=1.079  Sum_probs=20.5  Template_Neff=1.000
+
+Q seq2             36 VDCNFQCPRIQGGQCNNHHGTCDC   59 (60)
+Q Consensus        36 iDC~fqCp~~~gG~Cn~~~~~C~C   59 (60)
+                      .||+--|.+..||+||.+.+-|+|
+T Consensus      1924 rdcsqmctcqnggvcnfkngycdc 1947 (2408)
+T tr|K1QDC7|K1QD 1924 RDCSQMCTCQNGGVCNFKNGYCDC 1947 (2408)
+Confidence            477777777789999999999998
+
+
+No 72
+>tr|A0A084VQV3|A0A084VQV3_ANOSI Uncharacterized protein OS=Anopheles sinensis OX=74873 GN=ZHAS_00007840 PE=3 SV=1 
+Probab=34.14  E-value=1.4e+02  Score=31.68  Aligned_cols=25  Identities=44%  Similarity=0.950  Sum_probs=22.4  Template_Neff=1.000
+
+Q seq2             36 VDCNFQCPRIQGGQCNNHHGTCDCF   60 (60)
+Q Consensus        36 iDC~fqCp~~~gG~Cn~~~~~C~C~   60 (60)
+                      .||.-||....+|+||...+.|.|+
+T Consensus       853 rdcteqcrcqnggvcnpinghctcp  877 (1526)
+T tr|A0A084VQV3|  853 RDCTEQCRCQNGGVCNPINGHCTCP  877 (1526)
+Confidence            5899999988999999999999884
+
+
+No 73
+>tr|A0A226PR27|A0A226PR27_COLVI Uncharacterized protein OS=Colinus virginianus OX=9014 GN=H355_000773 PE=4 SV=1 
+Probab=33.18  E-value=1.5e+02  Score=30.33  Aligned_cols=25  Identities=36%  Similarity=0.875  Sum_probs=22.1  Template_Neff=1.000
+
+Q seq2             36 VDCNFQCPRIQGGQCNNHHGTCDCF   60 (60)
+Q Consensus        36 iDC~fqCp~~~gG~Cn~~~~~C~C~   60 (60)
+                      .||++.|.......||.+.++|.|+
+T Consensus       808 pdcslrcqcasksqcnpyngkcvcp  832 (950)
+T tr|A0A226PR27|  808 PDCSLRCQCASKSQCNPYNGKCVCP  832 (950)
+Confidence            5899988877899999999999984
+
+
+No 74
+>tr|A0A182FG82|A0A182FG82_ANOAL Uncharacterized protein OS=Anopheles albimanus OX=7167 PE=4 SV=1
+Probab=33.16  E-value=1.3e+02  Score=32.25  Aligned_cols=26  Identities=35%  Similarity=0.968  Sum_probs=22.3  Template_Neff=1.957
+
+Q seq2             35 DVDCNFQCPRIQGGQCNNHHGTCDCF   60 (60)
+Q Consensus        35 DiDC~fqCp~~~gG~Cn~~~~~C~C~   60 (60)
+                      -.||..+|...+||.|+..+++|.|.
+T Consensus       682 GqdC~~~C~C~ng~ECsHvTG~CQC~  707 (1444)
+T tr|A0A182FG82|  682 GQDCKQKCSCKNGGECSHVTGECQCP  707 (1444)
+Confidence            35888888777999999999999984
+
+
+No 75
+>tr|A0A0A7HIA5|A0A0A7HIA5_9ROSI TIPTOP6 OS=Momordica macrophylla OX=703376 GN=TIPTOP6 PE=3 SV=1
+Probab=32.61  E-value=1.4e+02  Score=27.49  Aligned_cols=22  Identities=36%  Similarity=0.825  Sum_probs=16.9  Template_Neff=1.279
+
+Q seq2             29 ARPCQRDVDCNFQCPRIQGGQC   50 (60)
+Q Consensus        29 ~~~CkRDiDC~fqCp~~~gG~C   50 (60)
+                      ...|.||.||+..|-....|+|
+T Consensus       310 lkkcrrdsdcpgecickgngyc  331 (332)
+T tr|A0A0A7HIA5|  310 LKKCRRDSDCPGECICKGNGYC  331 (332)
+Confidence            4689999999999876455554
+
+
+No 76
+>tr|A0A1Y3EPF8|A0A1Y3EPF8_9BILA Putative laminin EGF-like protein OS=Trichinella nativa OX=6335 GN=D917_07238 PE=4 SV=1 
+Probab=32.23  E-value=1.5e+02  Score=28.97  Aligned_cols=35  Identities=31%  Similarity=0.715  Sum_probs=27.4  Template_Neff=1.000
+
+Q seq2             26 LLQARPCQR---DVDCNFQCPRIQGGQCNNHHGTCDCF   60 (60)
+Q Consensus        26 l~~~~~CkR---DiDC~fqCp~~~gG~Cn~~~~~C~C~   60 (60)
+                      |.-...||.   -.||+.||.....|.|+..++.|.|.
+T Consensus        27 ldcssackdgfygedcskqchcsehgtcdeltgdcicq   64 (605)
+T tr|A0A1Y3EPF8|   27 LDCSSACKDGFYGEDCSKQCHCSEHGTCDELTGDCICQ   64 (605)
+Confidence            334556664   35999999988999999999999883
+
+
+No 77
+>tr|A0A183D244|A0A183D244_9BILA Uncharacterized protein OS=Gongylonema pulchrum OX=637853 PE=4 SV=1
+Probab=31.25  E-value=1.5e+02  Score=22.88  Aligned_cols=18  Identities=44%  Similarity=1.324  Sum_probs=15.1  Template_Neff=1.536
+
+Q seq2             41 QCPRIQGGQCNNHHGTCDCF   60 (60)
+Q Consensus        41 qCp~~~gG~Cn~~~~~C~C~   60 (60)
+                      .|.  .|+-||..++.|.|+
+T Consensus         5 ~c~--ng~~cn~~~g~c~c~   22 (85)
+T tr|A0A183D244|    5 RCH--NGGKCNHSNGNCKCP   22 (85)
+Confidence            355  799999999999985
+
+
+No 78
+>tr|A0A267DGY0|A0A267DGY0_9PLAT Uncharacterized protein OS=Macrostomum lignano OX=282301 GN=BOX15_Mlig020628g1 PE=4 SV=1
+Probab=30.60  E-value=1.7e+02  Score=28.34  Aligned_cols=32  Identities=38%  Similarity=0.751  Sum_probs=25.6  Template_Neff=1.000
+
+Q seq2             24 RTLLQARPCQRDVD-CNFQCPRIQGGQCNNHHG   55 (60)
+Q Consensus        24 ~tl~~~~~CkRDiD-C~fqCp~~~gG~Cn~~~~   55 (60)
+                      +|.++..-|.|||| |.+.=|+.++..|.+..+
+T Consensus       317 dtgyqgdlcdrdidecrlvspcqhgstcvntrg  349 (528)
+T tr|A0A267DGY0|  317 DTGYQGDLCDRDIDECRLVSPCQHGSTCVNTRG  349 (528)
+Confidence            47888999999998 887767668888877644
+
+
+No 79
+>tr|A0A1A6GMN1|A0A1A6GMN1_NEOLE Uncharacterized protein (Fragment) OS=Neotoma lepida OX=56216 GN=A6R68_04477 PE=4 SV=1 
+Probab=30.09  E-value=1.8e+02  Score=27.47  Aligned_cols=25  Identities=40%  Similarity=1.144  Sum_probs=20.7  Template_Neff=1.000
+
+Q seq2             35 DVDCNFQCPRIQGGQCNNHHGTCDC   59 (60)
+Q Consensus        35 DiDC~fqCp~~~gG~Cn~~~~~C~C   59 (60)
+                      -..|+..||.-++|.|+.-++.|.|
+T Consensus       177 gqncsqdcpchhggqcdhvtgqchc  201 (401)
+T tr|A0A1A6GMN1|  177 GQNCSQDCPCHHGGQCDHVTGQCHC  201 (401)
+Confidence            3467777888799999999999987
+
+
+No 80
+>tr|A0A017T3G0|A0A017T3G0_9DELT Uncharacterized protein OS=Chondromyces apiculatus DSM 436 OX=1192034 GN=CAP_5578 PE=4 SV=1
+Probab=29.69  E-value=1.6e+02  Score=24.02  Aligned_cols=31  Identities=32%  Similarity=0.716  Sum_probs=23.1  Template_Neff=1.703
+
+Q seq2             28 QARPCQRDVDCNFQCPRIQ---GGQCNNHHGTCD   58 (60)
+Q Consensus        28 ~~~~CkRDiDC~fqCp~~~---gG~Cn~~~~~C~   58 (60)
+                      -.+.|..|.||.-.|+...   -.-|+..+++|+
+T Consensus        69 c~psc~~dsdc~~tc~~~~n~~~nccd~~tg~cy  102 (124)
+T tr|A0A017T3G0|   69 CAPSCTQDSDCANTCAAVPNTQVNCCDVSTGTCY  102 (124)
+Confidence            3899999999999998422   234666677774
+
+
+No 81
+>tr|A0A0V1P3C2|A0A0V1P3C2_9BILA Multiple epidermal growth factor-like domains protein 11 OS=Trichinella sp. T8 OX=92180 GN=Megf11 PE=4 SV=1
+Probab=29.57  E-value=1.4e+02  Score=31.27  Aligned_cols=27  Identities=41%  Similarity=0.880  Sum_probs=24.4  Template_Neff=2.545
+
+Q seq2             34 RDVDCNFQCPRIQGGQCNNHHGTCDCF   60 (60)
+Q Consensus        34 RDiDC~fqCp~~~gG~Cn~~~~~C~C~   60 (60)
+                      |-+||.-||....+.|||..++.|.|.
+T Consensus       843 ~G~~Cvn~C~Ct~~~~CN~~~G~C~Cp  869 (1170)
+T tr|A0A0V1P3C2|  843 RGVGCVNQCNCTVGAFCNGTNGNCHCP  869 (1170)
+Confidence            567899999998999999999999984
+
+
+No 82
+>tr|A0A158PJU4|A0A158PJU4_ANGCS Uncharacterized protein OS=Angiostrongylus costaricensis OX=334426 PE=4 SV=1
+Probab=29.41  E-value=1.5e+02  Score=30.32  Aligned_cols=32  Identities=31%  Similarity=0.944  Sum_probs=26.6  Template_Neff=2.297
+
+Q seq2             29 ARPCQRD---VDCNFQCPRIQGGQCNNHHGTCDCF   60 (60)
+Q Consensus        29 ~~~CkRD---iDC~fqCp~~~gG~Cn~~~~~C~C~   60 (60)
+                      ..||.++   +||+..|...++|.|+.+++.|.|.
+T Consensus       545 D~pC~~g~yG~~C~~~crCk~ggecDr~tGeC~C~  579 (868)
+T tr|A0A158PJU4|  545 DTPCAAGTYGPHCSIACRCKNGGECDRFTGECKCD  579 (868)
+Confidence            4566665   6899998887899999999999983
+
+
+No 83
+>tr|A0A087SZD7|A0A087SZD7_9ARAC Multiple epidermal growth factor-like domains protein 10 (Fragment) OS=Stegodyphus mimosarum OX=407821 GN=X975_04854 PE=4 SV=1 
+Probab=28.51  E-value=2e+02  Score=28.95  Aligned_cols=26  Identities=42%  Similarity=1.096  Sum_probs=21.7  Template_Neff=1.000
+
+Q seq2             35 DVDCNFQCPRI-QGGQCNNHHGTCDCF   60 (60)
+Q Consensus        35 DiDC~fqCp~~-~gG~Cn~~~~~C~C~   60 (60)
+                      -+||...||.. .+|+|.++.+.|.|+
+T Consensus       221 gvdcdkecppcynggichdrygvcvcp  247 (746)
+T tr|A0A087SZD7|  221 GVDCDKECPPCYNGGICHDRYGVCVCP  247 (746)
+Confidence            57899998754 589999999999984
+
+
+No 84
+>tr|A0A0B1SY62|A0A0B1SY62_OESDE EGF-like domain protein (Fragment) OS=Oesophagostomum dentatum OX=61180 GN=OESDEN_09946 PE=4 SV=1 
+Probab=28.39  E-value=2e+02  Score=29.28  Aligned_cols=24  Identities=38%  Similarity=1.189  Sum_probs=21.6  Template_Neff=1.000
+
+Q seq2             36 VDCNFQCPRIQGGQCNNHHGTCDC   59 (60)
+Q Consensus        36 iDC~fqCp~~~gG~Cn~~~~~C~C   59 (60)
+                      .||.|+|.....|+|+.+.+.|.|
+T Consensus       153 mdcafkcqcgengvcdkkngsckc  176 (852)
+T tr|A0A0B1SY62|  153 MDCAFKCQCGENGVCDKKNGSCKC  176 (852)
+Confidence            699999998889999999998877
+
+
+No 85
+>tr|H0XVY0|H0XVY0_OTOGA Multiple EGF like domains 11 OS=Otolemur garnettii OX=30611 GN=MEGF11 PE=4 SV=1
+Probab=28.27  E-value=1.7e+02  Score=30.07  Aligned_cols=31  Identities=32%  Similarity=0.881  Sum_probs=26.4  Template_Neff=2.053
+
+Q seq2             30 RPCQRDVDCNFQCPRIQGGQCNNHHGTCDCF   60 (60)
+Q Consensus        30 ~~CkRDiDC~fqCp~~~gG~Cn~~~~~C~C~   60 (60)
+                      ++=+.-.+|...||..++|.|+..++.|.|.
+T Consensus       220 p~g~HG~~Ce~~CpCQNGgtChh~tG~C~Cp  250 (873)
+T tr|H0XVY0|H0XV  220 PPGSHGPHCEQRCPCQNGGTCHHITGECSCP  250 (873)
+Confidence            3345678999999999999999999999984
+
+
+No 86
+>tr|A0A2T9ZEB2|A0A2T9ZEB2_9FUNG Uncharacterized protein OS=Smittium megazygosporum OX=133381 GN=BB560_002608 PE=4 SV=1
+Probab=27.98  E-value=2e+02  Score=26.13  Aligned_cols=26  Identities=50%  Similarity=0.841  Sum_probs=19.3  Template_Neff=1.000
+
+Q seq2             25 TLLQ--ARPCQRD---VDCNFQCPRIQGGQC   50 (60)
+Q Consensus        25 tl~~--~~~CkRD---iDC~fqCp~~~gG~C   50 (60)
+                      +|.+  +..||-|   .||.|||-..-||+-
+T Consensus       174 tlkqclasqckgdftnldclfqcvgsvggis  204 (284)
+T tr|A0A2T9ZEB2|  174 TLKQCLASQCKGDFTNFDCLFQCVGSVGGIS  204 (284)
+Confidence            5554  6789987   599999987666653
+
+
+No 87
+>tr|H2MN54|H2MN54_ORYLA Uncharacterized protein OS=Oryzias latipes OX=8090 PE=4 SV=1
+Probab=27.82  E-value=1.5e+02  Score=26.73  Aligned_cols=24  Identities=29%  Similarity=0.926  Sum_probs=17.4  Template_Neff=2.890
+
+Q seq2             37 DCNFQCPRIQGGQCNNHHGTCDCF   60 (60)
+Q Consensus        37 DC~fqCp~~~gG~Cn~~~~~C~C~   60 (60)
+                      +|+-+|+.-+++.||..++.|.|.
+T Consensus       144 ~C~~~c~C~Nga~cdp~tG~C~C~  167 (297)
+T tr|H2MN54|H2MN  144 HCSNRCQCKNGAKCDPITGACQCT  167 (297)
+Confidence            344444444899999999999883
+
+
+No 88
+>tr|H0XVY0|H0XVY0_OTOGA Multiple EGF like domains 11 OS=Otolemur garnettii OX=30611 GN=MEGF11 PE=4 SV=1
+Probab=26.94  E-value=1.8e+02  Score=29.85  Aligned_cols=27  Identities=30%  Similarity=0.901  Sum_probs=24.0  Template_Neff=2.053
+
+Q seq2             33 QRDVDCNFQCPRIQGGQCNNHHGTCDC   59 (60)
+Q Consensus        33 kRDiDC~fqCp~~~gG~Cn~~~~~C~C   59 (60)
+                      +--|.|+..|+.-++|.|+..++.|.|
+T Consensus       266 ~~GiNCs~~C~C~ngg~CDhitG~C~C  292 (873)
+T tr|H0XVY0|H0XV  266 FYGINCSQDCFCRNGGECDHVTGQCHC  292 (873)
+Confidence            346899999998899999999999988
+
+
+No 89
+>tr|T0PVD6|T0PVD6_9STRA Uncharacterized protein OS=Saprolegnia diclina VS20 OX=1156394 GN=SDRG_17160 PE=3 SV=1 
+Probab=26.88  E-value=2.2e+02  Score=24.25  Aligned_cols=34  Identities=26%  Similarity=0.517  Sum_probs=24.6  Template_Neff=1.000
+
+Q seq2              3 LTGAGKKLEVATRSSNYAGTARTLLQARPCQRDV   36 (60)
+Q Consensus         3 Ltgv~~~~~~~~~s~~y~~~~~tl~~~~~CkRDi   36 (60)
+                      |-|.++.|..+--..||.-.++.....+||-||.
+T Consensus        94 lkgsndffginhygtnyvepsdaylanapcgrdg  127 (163)
+T tr|T0PVD6|T0PV   94 LKGSNDFFGINHYGTNYVEPSDAYLANAPCGRDG  127 (163)
+Confidence            4456666666666678877777777789999984
+
+
+No 90
+>tr|H0XVY0|H0XVY0_OTOGA Multiple EGF like domains 11 OS=Otolemur garnettii OX=30611 GN=MEGF11 PE=4 SV=1
+Probab=26.52  E-value=1.9e+02  Score=29.77  Aligned_cols=26  Identities=35%  Similarity=0.874  Sum_probs=22.7  Template_Neff=2.053
+
+Q seq2             35 DVDCNFQCPRIQGGQCNNHHGTCDCF   60 (60)
+Q Consensus        35 DiDC~fqCp~~~gG~Cn~~~~~C~C~   60 (60)
+                      -.||++.|+..++|.|....++|+|.
+T Consensus       572 g~nCs~sC~C~ngGsCs~edg~C~C~  597 (873)
+T tr|H0XVY0|H0XV  572 GPNCSGSCSCENGGSCSPEDGTCVCA  597 (873)
+Confidence            34899999998999999999999883
+
+
+No 91
+>tr|A0A1A6GMN1|A0A1A6GMN1_NEOLE Uncharacterized protein (Fragment) OS=Neotoma lepida OX=56216 GN=A6R68_04477 PE=4 SV=1 
+Probab=26.16  E-value=2.3e+02  Score=26.86  Aligned_cols=30  Identities=33%  Similarity=0.984  Sum_probs=25.4  Template_Neff=1.000
+
+Q seq2             31 PCQRDVDCNFQCPRIQGGQCNNHHGTCDCF   60 (60)
+Q Consensus        31 ~CkRDiDC~fqCp~~~gG~Cn~~~~~C~C~   60 (60)
+                      +=+.-..|.++||..++|.|...++.|.|.
+T Consensus       130 pgshgahcelrcpcqnggtchhitgecacp  159 (401)
+T tr|A0A1A6GMN1|  130 PGSHGAHCELRCPCQNGGTCHHITGECACP  159 (401)
+Confidence            345667899999999999999999999884
+
+
+No 92
+>tr|A0A182FG82|A0A182FG82_ANOAL Uncharacterized protein OS=Anopheles albimanus OX=7167 PE=4 SV=1
+Probab=26.10  E-value=2e+02  Score=31.06  Aligned_cols=25  Identities=40%  Similarity=0.949  Sum_probs=22.7  Template_Neff=1.957
+
+Q seq2             36 VDCNFQCPRIQGGQCNNHHGTCDCF   60 (60)
+Q Consensus        36 iDC~fqCp~~~gG~Cn~~~~~C~C~   60 (60)
+                      .||.-+|....||+||...+.|.|.
+T Consensus       510 rdCte~C~CqNGgvCNpiNGqCtCp  534 (1444)
+T tr|A0A182FG82|  510 RDCTNECHCQNGGVCNPINGQCTCP  534 (1444)
+Confidence            5899999988999999999999984
+
+
+No 93
+>tr|A0A0V1P3C2|A0A0V1P3C2_9BILA Multiple epidermal growth factor-like domains protein 11 OS=Trichinella sp. T8 OX=92180 GN=Megf11 PE=4 SV=1
+Probab=25.62  E-value=1.9e+02  Score=30.59  Aligned_cols=26  Identities=35%  Similarity=0.815  Sum_probs=22.7  Template_Neff=2.545
+
+Q seq2             35 DVDCNFQCPRIQGGQCNNHHGTCDCF   60 (60)
+Q Consensus        35 DiDC~fqCp~~~gG~Cn~~~~~C~C~   60 (60)
+                      -.||..+|+....|.|+..+++|.|.
+T Consensus       580 ge~C~~sC~C~~hG~Cd~~tG~C~C~  605 (1170)
+T tr|A0A0V1P3C2|  580 GEDCSKQCHCSEHGTCDELTGDCICQ  605 (1170)
+Confidence            46899999988899999999999883
+
+
+No 94
+>tr|A0A2G9RK21|A0A2G9RK21_LITCT Uncharacterized protein OS=Lithobates catesbeiana OX=8400 GN=AB205_0095590 PE=4 SV=1
+Probab=25.40  E-value=2e+02  Score=24.41  Aligned_cols=25  Identities=36%  Similarity=1.060  Sum_probs=20.1  Template_Neff=2.281
+
+Q seq2             36 VDCNFQCPRIQGGQCNNHHGTCDCF   60 (60)
+Q Consensus        36 iDC~fqCp~~~gG~Cn~~~~~C~C~   60 (60)
+                      ..|..+|..++.|.|+...+.|.|.
+T Consensus        69 ~~C~~~C~C~~~g~CD~~~G~C~C~   93 (164)
+T tr|A0A2G9RK21|   69 PQCQMQCQCIHNGECDRVNGECKCT   93 (164)
+Confidence            4566777777899999999999884
+
+
+No 95
+>tr|A0A0J9XP56|A0A0J9XP56_BRUMA Bm2272 (Fragment) OS=Brugia malayi OX=6279 GN=Bm2272 PE=4 SV=1 
+Probab=24.71  E-value=2.6e+02  Score=25.81  Aligned_cols=32  Identities=41%  Similarity=0.487  Sum_probs=24.5  Template_Neff=1.000
+
+Q seq2              1 RELTGAGKKLEVATRSSNYAGTARTLLQARPC   32 (60)
+Q Consensus         1 ReLtgv~~~~~~~~~s~~y~~~~~tl~~~~~C   32 (60)
+                      |.++||+-.-|++-.|+||+-++-.|+....|
+T Consensus        99 rnvsgvdlnnevaitssnyaytdlllphddqc  130 (303)
+T tr|A0A0J9XP56|   99 RNVSGVDLNNEVAITSSNYAYTDLLLPHDDQC  130 (303)
+Confidence            56789998888888889998776666655554
+
+
+No 96
+>tr|A0A0N0PAX4|A0A0N0PAX4_PAPMA Multiple epidermal growth factor-like domains protein 10 OS=Papilio machaon OX=76193 GN=RR48_04938 PE=4 SV=1
+Probab=24.12  E-value=2e+02  Score=30.29  Aligned_cols=25  Identities=36%  Similarity=0.957  Sum_probs=20.3  Template_Neff=2.800
+
+Q seq2             36 VDCNFQCPRIQGGQCNNHHGTCDCF   60 (60)
+Q Consensus        36 iDC~fqCp~~~gG~Cn~~~~~C~C~   60 (60)
+                      .||..+|+.-++|.|+...|.|.|.
+T Consensus       178 ~~C~e~C~C~NGg~Cd~vSG~C~C~  202 (1146)
+T tr|A0A0N0PAX4|  178 QDCSEKCRCQNGGTCDPVSGECHCA  202 (1146)
+Confidence            5788888877888888888888873
+
+
+No 97
+>tr|A0A0A7HIA5|A0A0A7HIA5_9ROSI TIPTOP6 OS=Momordica macrophylla OX=703376 GN=TIPTOP6 PE=3 SV=1
+Probab=22.42  E-value=2.9e+02  Score=25.88  Aligned_cols=24  Identities=33%  Similarity=0.751  Sum_probs=19.4  Template_Neff=1.279
+
+Q seq2             29 ARPCQRDVDCNFQCPRIQGGQCNN   52 (60)
+Q Consensus        29 ~~~CkRDiDC~fqCp~~~gG~Cn~   52 (60)
+                      ...|.||.||+.-|-....|+|-.
+T Consensus       200 l~rcrrdsdcpgacicq~ngycgs  223 (332)
+T tr|A0A0A7HIA5|  200 LKKCRRDSDCPGACICQGNGYCGS  223 (332)
+Confidence            568999999999988766777753
+
+
+No 98
+>tr|A0A2D7T1L9|A0A2D7T1L9_9RICK Uncharacterized protein (Fragment) OS=Rickettsiales bacterium OX=2026788 GN=CMP35_01390 PE=4 SV=1 
+Probab=22.30  E-value=3e+02  Score=23.56  Aligned_cols=31  Identities=23%  Similarity=0.392  Sum_probs=20.1  Template_Neff=1.000
+
+Q seq2              2 ELTGAGKKLEVATRSSNYAGTARTLLQARPCQRDV   36 (60)
+Q Consensus         2 eLtgv~~~~~~~~~s~~y~~~~~tl~~~~~CkRDi   36 (60)
+                      |+.||+++|++-.-++    ..........|-||.
+T Consensus        78 evagvddkfeeinlaa----inaaiqareecgrdd  108 (164)
+T tr|A0A2D7T1L9|   78 EVAGVDDKFEEINLAA----INAAIQAREECGRDD  108 (164)
+Confidence            6789999998865321    122344567888874
+
+
+No 99
+>tr|A0A2K3LSE3|A0A2K3LSE3_TRIPR Ccp-like protein OS=Trifolium pratense OX=57577 GN=L195_g037470 PE=4 SV=1 
+Probab=22.20  E-value=3.1e+02  Score=23.81  Aligned_cols=30  Identities=37%  Similarity=0.977  Sum_probs=24.3  Template_Neff=1.000
+
+Q seq2             29 ARPCQRDVDCNFQCPRIQGGQCNNHHGTCDCF   60 (60)
+Q Consensus        29 ~~~CkRDiDC~fqCp~~~gG~Cn~~~~~C~C~   60 (60)
+                      ...|+.|..|.--||-...|+|.  ++.|+|.
+T Consensus        34 dgacksdgqcqsgcpvgrhgvce--hgrcwcy   63 (179)
+T tr|A0A2K3LSE3|   34 DGACKSDGQCQSGCPVGRHGVCE--HGRCWCY   63 (179)
+Confidence            56899999999999976778886  4688873
+
+
+No 100
+>tr|A0A158PJU4|A0A158PJU4_ANGCS Uncharacterized protein OS=Angiostrongylus costaricensis OX=334426 PE=4 SV=1
+Probab=22.12  E-value=2.5e+02  Score=29.03  Aligned_cols=28  Identities=29%  Similarity=0.884  Sum_probs=22.7  Template_Neff=2.297
+
+Q seq2             33 QRDVDCNFQCPRIQGGQCNNHHGTCDCF   60 (60)
+Q Consensus        33 kRDiDC~fqCp~~~gG~Cn~~~~~C~C~   60 (60)
+                      +--.||.|.|...+++.|+...+.|.|.
+T Consensus       267 k~g~~C~FeC~CkNga~Cd~~nG~C~C~  294 (868)
+T tr|A0A158PJU4|  267 KFGANCKFECNCKNGATCDAKNGRCICA  294 (868)
+Confidence            3456899988887889999999998873
+
+
+No 101
+>tr|A0A0A7HIA5|A0A0A7HIA5_9ROSI TIPTOP6 OS=Momordica macrophylla OX=703376 GN=TIPTOP6 PE=3 SV=1
+Probab=21.93  E-value=3e+02  Score=25.80  Aligned_cols=24  Identities=33%  Similarity=0.762  Sum_probs=19.3  Template_Neff=1.279
+
+Q seq2             29 ARPCQRDVDCNFQCPRIQGGQCNN   52 (60)
+Q Consensus        29 ~~~CkRDiDC~fqCp~~~gG~Cn~   52 (60)
+                      ...|.||.||+.-|-.-..|+|-.
+T Consensus       250 lk~crrdsdcpgacic~~ngycgs  273 (332)
+T tr|A0A0A7HIA5|  250 LKKCRRDSDCPGACVCQGNGYCGS  273 (332)
+Confidence            468999999999988666777754
+
+
+No 102
+>tr|A0A0A7HIA5|A0A0A7HIA5_9ROSI TIPTOP6 OS=Momordica macrophylla OX=703376 GN=TIPTOP6 PE=3 SV=1
+Probab=21.93  E-value=3e+02  Score=25.80  Aligned_cols=24  Identities=33%  Similarity=0.744  Sum_probs=18.6  Template_Neff=1.279
+
+Q seq2             29 ARPCQRDVDCNFQCPRIQGGQCNN   52 (60)
+Q Consensus        29 ~~~CkRDiDC~fqCp~~~gG~Cn~   52 (60)
+                      ...|.||.||+.-|-.-..|+|-.
+T Consensus       100 lk~crrdsdcpgacic~~ngycgs  123 (332)
+T tr|A0A0A7HIA5|  100 LKKCRRDSDCPGACICRGNGYCGS  123 (332)
+Confidence            468999999999887656666643
+
+
+No 103
+>tr|A0A132AL88|A0A132AL88_SARSC Uncharacterized protein (Fragment) (Fragment) OS=Sarcoptes scabiei OX=52283 GN=QR98_0103470 PE=4 SV=1
+Probab=21.42  E-value=2.3e+02  Score=27.55  Aligned_cols=28  Identities=36%  Similarity=0.964  Sum_probs=24.2  Template_Neff=3.109
+
+Q seq2             33 QRDVDCNFQCPRIQGGQCNNHHGTCDCF   60 (60)
+Q Consensus        33 kRDiDC~fqCp~~~gG~Cn~~~~~C~C~   60 (60)
+                      .--++|.-.|+...+|.|+..+++|+|.
+T Consensus        31 ~~g~~c~~~c~c~n~g~c~~v~g~c~c~   58 (546)
+T tr|A0A132AL88|   31 FHGIECNESCHCLNGGTCNHVTGKCSCP   58 (546)
+Confidence            4467888888888999999999999984
+
+
+No 104
+>tr|A0A0S8FRX5|A0A0S8FRX5_9BACT Uncharacterized protein OS=Planctomycetes bacterium SM23_32 OX=1704029 GN=AMK73_06630 PE=4 SV=1 
+Probab=20.95  E-value=3.4e+02  Score=24.61  Aligned_cols=15  Identities=47%  Similarity=0.527  Sum_probs=13.3  Template_Neff=1.000
+
+Q seq2              2 ELTGAGKKLEVATRS   16 (60)
+Q Consensus         2 eLtgv~~~~~~~~~s   16 (60)
+                      |||||+++++++-+.
+T Consensus        86 eltgveemleeavag  100 (251)
+T tr|A0A0S8FRX5|   86 ELTGVEEMLEEAVAG  100 (251)
+Confidence            799999999998765
+
+
+No 105
+>tr|A0A087G8G9|A0A087G8G9_ARAAL Uncharacterized protein OS=Arabis alpina OX=50452 GN=AALP_AA8G212100 PE=4 SV=1
+Probab=20.63  E-value=3.2e+02  Score=22.85  Aligned_cols=33  Identities=39%  Similarity=0.751  Sum_probs=23.9  Template_Neff=1.606
+
+Q seq2             25 TLLQARPCQRDVDCNFQCPRIQGGQCNNHHGTCDC   59 (60)
+Q Consensus        25 tl~~~~~CkRDiDC~fqCp~~~gG~Cn~~~~~C~C   59 (60)
+                      +..+..+|.-|.-|.-+||..+--.|-+  ++|.|
+T Consensus        30 ~~~~~g~c~~d~~c~~~cpgc~~tqc~~--~~cvc   62 (132)
+T tr|A0A087G8G9|   30 TPQQQGPCSYDNMCHNHCPGCKFTQCIN--QQCVC   62 (132)
+Confidence            4455779999999999999655555543  46655
+
+
+No 106
+>tr|A0A1I7TTY3|A0A1I7TTY3_9PELO Uncharacterized protein OS=Caenorhabditis tropicalis OX=1561998 PE=4 SV=1 
+Probab=20.48  E-value=3.5e+02  Score=28.92  Aligned_cols=33  Identities=30%  Similarity=0.814  Sum_probs=26.4  Template_Neff=1.000
+
+Q seq2             28 QARPCQRDVDCNFQCPRIQGGQCNNHHGTCDCF   60 (60)
+Q Consensus        28 ~~~~CkRDiDC~fqCp~~~gG~Cn~~~~~C~C~   60 (60)
+                      +-..=+-..||.|.|....+..|++..++|.|.
+T Consensus       233 kceegkfsadckfectcqngatcdntngkclck  265 (1307)
+T tr|A0A1I7TTY3|  233 KCEEGKFSADCKFECTCQNGATCDNTNGKCLCK  265 (1307)
+Confidence            333445678999999988899999999999873
+
+
+No 107
+>tr|A0A132AL88|A0A132AL88_SARSC Uncharacterized protein (Fragment) (Fragment) OS=Sarcoptes scabiei OX=52283 GN=QR98_0103470 PE=4 SV=1
+Probab=20.45  E-value=2.5e+02  Score=27.37  Aligned_cols=25  Identities=40%  Similarity=0.899  Sum_probs=20.2  Template_Neff=3.109
+
+Q seq2             36 VDCNFQCPR-IQGGQCNNHHGTCDCF   60 (60)
+Q Consensus        36 iDC~fqCp~-~~gG~Cn~~~~~C~C~   60 (60)
+                      .+|..+|+. ..++.|+..++.|.|+
+T Consensus       467 ~~Cq~~C~c~~~g~~C~~~~G~CiC~  492 (546)
+T tr|A0A132AL88|  467 HRCQQQCDCSSIGGQCDHETGHCICP  492 (546)
+Confidence            467777775 5899999999999884
+
+
+No 108
+>tr|A0A1Y3EPF8|A0A1Y3EPF8_9BILA Putative laminin EGF-like protein OS=Trichinella nativa OX=6335 GN=D917_07238 PE=4 SV=1 
+Probab=20.23  E-value=3.6e+02  Score=26.93  Aligned_cols=28  Identities=39%  Similarity=0.846  Sum_probs=24.5  Template_Neff=1.000
+
+Q seq2             33 QRDVDCNFQCPRIQGGQCNNHHGTCDCF   60 (60)
+Q Consensus        33 kRDiDC~fqCp~~~gG~Cn~~~~~C~C~   60 (60)
+                      .|-+-|.-||...-+.|||...+.|.|+
+T Consensus       277 prgvgcvnqcnctvgafcngtngnchcp  304 (605)
+T tr|A0A1Y3EPF8|  277 PRGVGCVNQCNCTVGAFCNGTNGNCHCP  304 (605)
+Confidence            4778899999988899999999999884
+
+
