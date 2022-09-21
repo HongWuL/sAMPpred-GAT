@@ -43,7 +43,7 @@ Note that you can change the paths of the tools and databases by configuring `co
 
 Run the example by: 
 ```
-chmod +x 777 generate_features_example.sh
+chmod +x generate_features_example.sh
 ./generate_features_example.sh
 ```
 If you want generate the features using your own file in fasta format, just follow the `generate_features_example.sh` and change the pathes as yours.
