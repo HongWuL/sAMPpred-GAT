@@ -48,7 +48,7 @@ chmod +x generate_features_example.sh
 ```
 If you want generate the features using your own file in fasta format, just follow the `generate_features_example.sh` and change the pathes as yours.
 
-## train and test
+## Usage
 
 `train.py` and `test.py` are used for training and testing, respectively. 
 
