@@ -85,6 +85,7 @@ Run the example by:
 chmod +x generate_features_example.sh
 ./generate_features_example.sh
 ```
+The features used in this study will be genrerated in your tools and databases are configured correctly.
 If you want generate the features using your own file in fasta format, just follow the `generate_features_example.sh` and change the pathes into yours.
 
 ## Usage
