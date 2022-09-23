@@ -40,24 +40,24 @@ Your can follow these steps to install them:
 
 Download 
 
-`
+```
 wget ftp://ftp.ncbi.nlm.nih.gov/blast/executables/blast+/2.12.0/ncbi-blast-2.12.0+-x64-linux.tar.gz
 tar zxvf ncbi-blast-2.12.0+-x64-linux.tar.gz
-`
+```
 
 Add the path to system envirenment in `~/.bashrc`.
 
-`
+```
 export BLAST_HOME={your_path}/ncbi-blast-2.12.0+
 export PATH=$PATH:$BLAST_HOME/bin
-`
+```
 
 Finally, reload the system envirenment and check the psiblast command:
 
-`
+```
 source ~/.bashrc
 psiblast -h
-`
+```
 
 
 ### hhblits
