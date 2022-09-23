@@ -37,9 +37,11 @@ The structures are predicted by trRosetta(https://github.com/gjoni/trRosetta), y
 All the defalut paths of the tools and databases are shown in `config.yaml`. `psi-blast` and `hhblist` are recommended to be configured as the system envirenment path.
 Your can follow these steps to install them:
 ### psiblast
+
 Download 
+
 `
-wget ftp://ftp.ncbi.nlm.nih.gov/blast/executables/blast+/2.12.0/ncbi-blast-2.12.0+-src.tar.gz
+wget ftp://ftp.ncbi.nlm.nih.gov/blast/executables/blast+/2.12.0/ncbi-blast-2.12.0+-x64-linux.tar.gz
 `
 Add the path to system envirenment.
 `
