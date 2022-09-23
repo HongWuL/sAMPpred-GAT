@@ -34,6 +34,10 @@ uniclust30_2018_08(https://wwwuser.gwdg.de/~compbiol/uniclust/2018_08/)
 ```
 The structures are predicted by trRosetta(https://github.com/gjoni/trRosetta), you need to download and place the trRosetta pretrain model(model2019_07) as well.
 
+
+The trRosetta model and the databases are recommended to be placed into the `utils/` directory as desribed in `config.yaml`.
+**Note** that you can change the paths of the tools and databases by configuring `config.yaml` as you need.
+
 All the defalut paths of the tools and databases are shown in `config.yaml`. `psi-blast` and `hhblist` are recommended to be configured as the system envirenment path.
 Your can follow these steps to install them:
 ### psiblast
@@ -61,10 +65,11 @@ psiblast -h
 
 
 ### hhblits
+You can download and install the hhblits througth `conda` quickly.
 
-
-The trRosetta model and the databases are recommended to be placed into the `utils/` directory as desribed in `config.yaml`.
-**Note** that you can change the paths of the tools and databases by configuring `config.yaml` as you need.
+```
+conda install -c conda-forge -c bioconda hhsuite==3.3.0
+```
 
 ## Feature extraction
 
@@ -75,7 +80,7 @@ Run the example by:
 chmod +x generate_features_example.sh
 ./generate_features_example.sh
 ```
-If you want generate the features using your own file in fasta format, just follow the `generate_features_example.sh` and change the pathes as yours.
+If you want generate the features using your own file in fasta format, just follow the `generate_features_example.sh` and change the pathes into yours.
 
 ## Usage
 
@@ -118,18 +123,20 @@ XXX(name of the negative file).fasta
 ---D.npz
 
 ```
-Note that `generate_features_example.sh` just generated the corrent folder structure. It is easy to  follow the example to generate the input folder.
+Note that `generate_features_example.sh` just generated the corrent folder structure. Just follow the example to generate the input folder.
 
 ### Test 
 
 A trained model for XUAMP is supplied in saved_models/samp.model as an example. Run `test.py` to predict the example sequences:
 `python test.py`
 
-If you want test the specific dataset, for example XUAMP, you should copy the files in fasta format in `datasets/independent/` directory into the `data/test_data/positive/` folder and `data/test_data/negative/`, and change the args relative to the input in `test.py`. An example is given in `test.sh`.
+If you want test the specific dataset, for example XUAMP, you should copy the files in fasta format in `datasets/independent/` directory into the `data/test_data/positive/` folder and `data/test_data/negative/`, and set the **args** relative to the inputs 
+An example is given in `test.sh`.
 
 ### Train
 
-If you want train a model based on the specific dataset, for example XUAMP, you should copy the files in fasta format in `datasets/train datasets/` directory into the `data/train_data/positive/` folder and `data/train_data/negative/`, and change the args relative to the input in `train.py` as the test process. An example is given in `train.sh`.
+If you want train a model based on the specific dataset, for example XUAMP, you should copy the files in fasta format in `datasets/train datasets/` directory into the `data/train_data/positive/` folder and `data/train_data/negative/`, and set the args relative to the inputs as shown in `train.sh`.
+An example is given in `train.sh`.
 
 
 
