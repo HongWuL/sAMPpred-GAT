@@ -70,6 +70,11 @@ You can download and install the hhblits througth `conda` quickly.
 ```
 conda install -c conda-forge -c bioconda hhsuite==3.3.0
 ```
+Check the installation:
+
+```
+hhblits -h
+```
 
 ## Feature extraction
 
