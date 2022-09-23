@@ -31,7 +31,6 @@ def train(args):
         data_list.extend(neg_data[0])
         labels = np.concatenate((labels, neg_data[1]), axis=0)
 
-        ids = list(range(0, len(data_list)))
         data_train, data_val, _, _ = train_test_split(data_list, labels, test_size=0.2, shuffle=True, random_state=41)
     else:
 
@@ -65,7 +64,6 @@ def train(args):
     if args.pretrained_model == "":
         model = GATModel(node_feature_dim, args.hd, n_class, args.drop, args.heads).to(device)
     else:
-        print("pretrain")
         model = torch.load(args.pretrained_model).to(device)
 
     optimizer = torch.optim.Adam(model.parameters(), lr=args.lr)
@@ -185,8 +183,6 @@ if __name__ == '__main__':
     parser.add_argument('-e', type=int, default=50, help='Maximum number of epochs')
     parser.add_argument('-b', type=int, default=512, help='Batch size')
     parser.add_argument('-hd', type=int, default=64, help='Hidden layer dim')
-
-    parser.add_argument('-seed', type=int, default=123, help='Hidden layer dim')
 
     parser.add_argument('-pretrained_model', type=str, default="",
                         help='The path of pretraining model, if None, the model will be trained from scratch')

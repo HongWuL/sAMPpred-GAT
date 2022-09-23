@@ -7,4 +7,4 @@ python generate_features.py -hhm_ifasta $pos/XU_pos.fasta -hhm_oa3m $pos/a3m/ -h
 python generate_features.py -hhm_ifasta $neg/XU_neg.fasta -hhm_oa3m $neg/a3m/ -hhm_ohhm $neg/hhm/ -hhm_tmp $neg/tmp/ -tr_ia3m $neg/a3m/ -tr_onpz $neg/npz/ -pssm_ifasta $neg/example_neg.fasta -pssm_opssm $neg/pssm/
 
 python test.py  -pos_t $pos/XU_pos.fasta -pos_npz $pos/npz/ -neg_t $neg/XU_neg.fasta -neg_npz $neg/npz/ \
-                -save saved_models/auc_XU.model
+                -save saved_models/auc_XU_final.model
