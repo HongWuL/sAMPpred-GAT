@@ -1,0 +1,1 @@
+positive file in fasta format for testing

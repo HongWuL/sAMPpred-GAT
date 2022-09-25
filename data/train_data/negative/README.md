@@ -1,0 +1,1 @@
+negative file in fasta format for training
