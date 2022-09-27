@@ -17,6 +17,7 @@ tensorboardX 2.5.1
 networkx  2.61.3                                                                                                                          
 numpy 1.21.6
 tqdm  4.64.1
+pyyaml==6.0
 ```
 
 ## Tools
