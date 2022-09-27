@@ -5,20 +5,21 @@ The implementation of the paper ***sAMPpred-GAT: Prediction of Antimicrobial Pep
 The majoy dependencies used in this project are as following:
 
 ```
-python 3.7              
-scikit-learn  1.0.2
-torch 1.11.0+cu113
-torch-cluster 1.6.0
-torch-geometric 1.7.3
-torch-scatter 2.0.9
-torch-sparse  0.6.15
-tensorflow  1.14.0
-tensorboardX 2.5.1
-networkx  2.61.3                                                                                                                          
+python  3.7
 numpy 1.21.6
+pandas  1.3.5
 tqdm  4.64.1
-pyyaml==6.0
+pyyaml  6.0
+scikit-learn  1.0.2
+torch  1.11.0+cu113
+torch-cluster  1.6.0
+torch-scatter  2.0.9
+torch-sparse  0.6.15
+torch-geometric  1.7.2
+tensorflow  1.14.0
+tensorboardX  2.5.1
 ```
+
 
 ## Tools
 Two multiple sequence alignment tools and three databases are required: 
