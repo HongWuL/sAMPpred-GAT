@@ -80,12 +80,12 @@ if __name__ == '__main__':
     parser.add_argument('-pos_t', type=str, default='example/positive/example_pos.fasta',
                         help='Path of the positive test dataset')
     parser.add_argument('-pos_npz', type=str, default='example/positive/npz/',
-                        help='Path of the npz folder, which saves the predicted structure')
+                        help='Path of the positive npz folder, which saves the predicted structure')
 
     parser.add_argument('-neg_t', type=str, default='example/negative/example_neg.fasta',
                         help='Path of the negative test dataset')
     parser.add_argument('-neg_npz', type=str, default='example/negative/npz/', 
-                        help='Path of the npz folder, which saves the predicted structure')
+                        help='Path of the positive npz folder, which saves the predicted structure')
 
     parser.add_argument('-b', type=int, default=512, help='Batch size')
     parser.add_argument('-save', type=str, default='saved_models/samp.model',
@@ -93,8 +93,10 @@ if __name__ == '__main__':
     parser.add_argument('-o', type=str, default='results/test.csv', help='Results file')
     parser.add_argument('-drop', type=float, default=0.5, help='Dropout rate')
     parser.add_argument('-hd', type=int, default=64, help='Hidden layer dim')
-    parser.add_argument('-heads', type=int, default=8, help='Hidden layer dim')
-    parser.add_argument('-d', type=int, default=37, help='Seed for spliting dataset')
+    parser.add_argument('-heads', type=int, default=8, help='Number of heads')
+    parser.add_argument('-d', type=int, default=37, help='Distance threshold')
     args = parser.parse_args()
+
+    
 
     independent_test(args)

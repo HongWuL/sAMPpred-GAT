@@ -166,16 +166,16 @@ if __name__ == '__main__':
     parser.add_argument('-pos_t', type=str, default='data/train_data/positive/XU_pretrain_train_positive.fasta',
                         help='Path of the positive training dataset')
     parser.add_argument('-pos_v', type=str, default='',
-                        help='Path of the positive validation training dataset')
+                        help='Path of the positive validation dataset')
     parser.add_argument('-pos_npz', type=str, default='data/train_data/positive/npz/',
-                        help='Path of the npz folder, which saves the predicted structure')
+                        help='Path of the positive npz folder, which saves the predicted structure')
 
     parser.add_argument('-neg_t', type=str, default='data/train_data/negative/XU_pretrain_train_negative.fasta',
                         help='Path of the negative training dataset')
     parser.add_argument('-neg_v', type=str, default='', 
-                        help='Path of the negative validation training dataset')
+                        help='Path of the negative validation dataset')
     parser.add_argument('-neg_npz', type=str, default='data/train_data/negative/npz/', 
-                        help='Path of the npz folder, which saves the predicted structure')
+                        help='Path of the positive npz folder, which saves the predicted structure')
 
     # 0.001 for pretrain， 0.0001 or train
     parser.add_argument('-lr', type=float, default=0.001, help='Learning rate') 
@@ -185,13 +185,13 @@ if __name__ == '__main__':
     parser.add_argument('-hd', type=int, default=64, help='Hidden layer dim')
 
     parser.add_argument('-pretrained_model', type=str, default="",
-                        help='The path of pretraining model, if None, the model will be trained from scratch')
-    parser.add_argument('-save', type=str, default='saved_models/samp_test.model',
+                        help='The path of pretraining model, if "", the model will be trained from scratch')
+    parser.add_argument('-save', type=str, default='saved_models/samp.model',
                         help='The path saving the trained models')
-    parser.add_argument('-heads', type=int, default=8, help='Hidden layer dim')
+    parser.add_argument('-heads', type=int, default=8, help='Number of heads')
 
-    parser.add_argument('-d', type=int, default=37, help='Distance threshold to construct a graph, 0-37, 37: 20A')
-    parser.add_argument('-o', type=str, default='results/log.txt', help='File saving prediction results')
+    parser.add_argument('-d', type=int, default=37, help='Distance threshold to construct a graph, 0-37, 37 means 20A')
+    parser.add_argument('-o', type=str, default='results/log.txt', help='File saving the raw prediction results')
     args = parser.parse_args()
 
     start_time = datetime.datetime.now()
