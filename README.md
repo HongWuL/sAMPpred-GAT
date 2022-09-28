@@ -141,18 +141,18 @@ A trained model for XUAMP is supplied in saved_models/samp.model as an example. 
 `python test.py`
 
 If you want test the specific dataset, for example XUAMP, you should copy the corresponding files in fasta format in `datasets/independent test datasets/` directory into the `data/test_data/positive/` and `data/test_data/negative/`, and set the ***args*** relative to the inputs. An example is given in `test.sh`:
-`
+```
 chmod +x test.sh
 ./test.sh
-`
+```
 
 ### Train
 
 If you want train a model based on the specific dataset, for example XUAMP, you should copy the files in fasta format in `datasets/train datasets/` directory into the `data/train_data/positive/` and `data/train_data/negative/`, and set the ***args*** relative to the inputs. An example is given in `train.sh`:
-`
+```
 chmod +x train.sh
 ./train.sh
-`
+```
 
 
 
