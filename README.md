@@ -35,12 +35,13 @@ nrdb90(http://bliulab.net/sAMPpred-GAT/static/download/nrdb90.tar.gz)
 NR(https://ftp.ncbi.nlm.nih.gov/blast/db/)
 uniclust30_2018_08(https://wwwuser.gwdg.de/~compbiol/uniclust/2018_08/uniclust30_2018_08_hhsuite.tar.gz)
 ```
-**nrdb90**: We have supplied the nrdb90 databases in our webserver. You can just download it can put it into the `utils/psiblast/` directoy and decompress it. The nrdb90 will be successfully installed.
+**nrdb90**: We have supplied the nrdb90 databases in our webserver. You need to put it into the `utils/psiblast/` directoy and decompress it. 
 
-**nr**:You can download NR dababase from `https://ftp.ncbi.nlm.nih.gov/blast/db/`. Note the only the files with format `nr.*` are needed. You need to download them can put them into the `utils/psiblast/nr/` directoy
+**NR**:You can download NR dababase from `https://ftp.ncbi.nlm.nih.gov/blast/db/`. Note that only the files with format `nr.*` are needed. You need to download them can put them into the `utils/psiblast/nr/` directoy
 
+**uniclust30_2018_08**:You can download it dababase from `https://wwwuser.gwdg.de/~compbiol/uniclust/2018_08/uniclust30_2018_08_hhsuite.tar.gz` and decompress it in the directory `utils/hhblits/`.
 
-The structures are predicted by trRosetta(https://github.com/gjoni/trRosetta), you need to download and place the trRosetta pretrain model(model2019_07) as well.
+**trRosetta**: The structures are predicted by trRosetta(https://github.com/gjoni/trRosetta), you need to download and place the trRosetta pretrain model(model2019_07) into `utils/trRosetta/`.
 
 
 The trRosetta model and the databases are recommended to be placed into the `utils/` directory as desribed in `config.yaml`.
