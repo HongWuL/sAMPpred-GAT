@@ -31,17 +31,25 @@ hhblits 3.3.0
 ```
 Databases:
 ```
-nrdb90(http://ftp.ebi.ac.uk/pub/databases/nrdb90/)
+nrdb90(http://bliulab.net/sAMPpred-GAT/static/download/nrdb90.tar.gz)
 NR(https://ftp.ncbi.nlm.nih.gov/blast/db/)
-uniclust30_2018_08(https://wwwuser.gwdg.de/~compbiol/uniclust/2018_08/)
+uniclust30_2018_08(https://wwwuser.gwdg.de/~compbiol/uniclust/2018_08/uniclust30_2018_08_hhsuite.tar.gz)
 ```
+**nrdb90**: We have supplied the nrdb90 databases in our webserver. You can just download it can put it into the `utils/psiblast/` directoy and decompress it. The nrdb90 will be successfully installed.
+
+**nr**:You can download NR dababase from `https://ftp.ncbi.nlm.nih.gov/blast/db/`. Note the only the files with format `nr.*` are needed. You need to download them can put them into the `utils/psiblast/nr/` directoy
+
+
 The structures are predicted by trRosetta(https://github.com/gjoni/trRosetta), you need to download and place the trRosetta pretrain model(model2019_07) as well.
 
 
 The trRosetta model and the databases are recommended to be placed into the `utils/` directory as desribed in `config.yaml`.
-**Note** that you can change the paths of the tools and databases by configuring `config.yaml` as you need.
+**Note** that you can change the paths of the tools and databases by configuring `config.yaml` as you need. For example, you da
 
-All the defalut paths of the tools and databases are shown in `config.yaml`. `psi-blast` and `hhblist` are recommended to be configured as the system envirenment path.
+All the defalut paths of the tools and databases are shown in `config.yaml`. 
+
+
+`psi-blast` and `hhblist` are recommended to be configured as the system envirenment path.
 Your can follow these steps to install them:
 ### psiblast
 
