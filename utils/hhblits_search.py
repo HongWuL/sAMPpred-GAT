@@ -30,6 +30,9 @@ def run(hhb, input, tg, tg_hhm, tmp_folder, db):
     if not os.path.exists(tmp_folder):
         os.makedirs(tmp_folder)
 
+    for f in os.listdir(tmp_folder):
+        os.remove(tmp_folder + f)
+    
     for i in range(len(names)):
         name = names[i]
         fname = name.replace('|', '_')[1:]
