@@ -90,7 +90,7 @@ if __name__ == '__main__':
     parser.add_argument('-b', type=int, default=512, help='Batch size')
     parser.add_argument('-save', type=str, default='saved_models/samp.model',
                         help='The directory saving the trained models')
-    parser.add_argument('-o', type=str, default='results/test.csv', help='Results file')
+    parser.add_argument('-o', type=str, default='test_results.csv', help='Results file')
     parser.add_argument('-drop', type=float, default=0.5, help='Dropout rate')
     parser.add_argument('-hd', type=int, default=64, help='Hidden layer dim')
     parser.add_argument('-heads', type=int, default=8, help='Number of heads')

@@ -191,7 +191,7 @@ if __name__ == '__main__':
     parser.add_argument('-heads', type=int, default=8, help='Number of heads')
 
     parser.add_argument('-d', type=int, default=37, help='Distance threshold to construct a graph, 0-37, 37 means 20A')
-    parser.add_argument('-o', type=str, default='results/log.txt', help='File saving the raw prediction results')
+    parser.add_argument('-o', type=str, default='log.txt', help='File saving the raw prediction results')
     args = parser.parse_args()
 
     start_time = datetime.datetime.now()
