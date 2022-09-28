@@ -1,0 +1,1 @@
+The default folder of the uniclust database for hhblits.
