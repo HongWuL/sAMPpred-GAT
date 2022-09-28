@@ -43,15 +43,10 @@ uniclust30_2018_08(https://wwwuser.gwdg.de/~compbiol/uniclust/2018_08/uniclust30
 
 **trRosetta**: The structures are predicted by trRosetta(https://github.com/gjoni/trRosetta), you need to download and place the trRosetta pretrain model(model2019_07) into `utils/trRosetta/`.
 
-
-The trRosetta model and the databases are recommended to be placed into the `utils/` directory as desribed in `config.yaml`.
-**Note** that you can change the paths of the tools and databases by configuring `config.yaml` as you need. For example, you da
-
-All the defalut paths of the tools and databases are shown in `config.yaml`. 
+> **Note** that all the defalut paths of the tools and databases are shown in `config.yaml`. You can change the paths of the tools and databases by configuring `config.yaml` as you need. 
 
 
-`psi-blast` and `hhblist` are recommended to be configured as the system envirenment path.
-Your can follow these steps to install them:
+`psi-blast` and `hhblist` are recommended to be configured as the system envirenment path. Your can follow these steps to install them:
 ### psiblast
 
 Download 
