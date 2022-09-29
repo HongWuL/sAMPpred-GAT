@@ -22,7 +22,14 @@ More detailed python libraries used in this project are referred to `requirement
 Check your CPU device and install the pytorch and pyG (torch-cluster, torch-scatter, torch-sparse, torch-geometric) according to your CUDA version.
 > **Note** that torch-geometric 1.7.2 and tensorflow 1.14.0 are required, becuase our trained model does not support the `torch-geometric` with higher version , and the model from trRosetta does not support the `tensorflow` with higher version.
 > 
-The The installed version of pyG (torch-cluster, torch-scatter, torch-sparse, torch-geometric) must be a GPU version according to your CUDA. If you installed a wrong vesion, there will be some unexpected errors like https://github.com/rusty1s/pytorch_scatter/issues/248 and https://github.com/pyg-team/pytorch_geometric/issues/2040.
+The The installed pyG (torch-cluster, torch-scatter, torch-sparse, torch-geometric) must be a GPU version according to your CUDA. If you installed a wrong vesion, there will be some unexpected errors like https://github.com/rusty1s/pytorch_scatter/issues/248 and https://github.com/pyg-team/pytorch_geometric/issues/2040. We provide the installation methods of pytorch and pyG in our environment as an exmaple:
+
+```
+pip install torch==1.11.0+cu113 torchvision==0.12.0+cu113 torchaudio==0.11.0 --extra-index-url https://download.pytorch.org/whl/cu113
+```
+```
+pip install torch-scatter torch-sparse torch-cluster torch-spline-conv torch-geometric==1.7.2 -f https://data.pyg.org/whl/torch-1.11.0+cu113.html
+```
 
 
 ## Tools
