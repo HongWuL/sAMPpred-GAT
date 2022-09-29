@@ -49,7 +49,7 @@ uniclust30_2018_08(https://wwwuser.gwdg.de/~compbiol/uniclust/2018_08/uniclust30
 
 
 `psi-blast` and `hhblist` are recommended to be configured as the system envirenment path. Your can follow these steps to install them:
-### psiblast
+#### psiblast
 
 Download 
 
@@ -73,7 +73,7 @@ psiblast -h
 ```
 
 
-### hhblits
+#### hhblits
 You can download and install the hhblits througth `conda` quickly.
 
 ```
@@ -141,7 +141,7 @@ XXX(name of the negative file).fasta
 ```
 Note that `generate_features_example.sh` just generated the corrent folder structure. Just follow the example to generate the input folder.
 
-### Test 
+#### Test 
 
 A trained model for XUAMP is supplied in saved_models/samp.model as an example. Run `test.py` to predict the example sequences:
 `python test.py`
@@ -152,7 +152,7 @@ chmod +x test.sh
 ./test.sh
 ```
 
-### Train
+#### Train
 
 If you want train a model based on the specific dataset, for example XUAMP, you should copy the files in fasta format in `datasets/train datasets/` directory into the `data/train_data/positive/` and `data/train_data/negative/`, and set the ***args*** relative to the inputs. An example is given in `train.sh`:
 ```
