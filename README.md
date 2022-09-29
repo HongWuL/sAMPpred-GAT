@@ -141,7 +141,7 @@ XXX(name of the negative file).fasta
 
 ```
 Note that `generate_features_example.sh` just generated the corrent folder structure. Just follow the example to generate the input folder.
-Before you train and test the model, you must successfully run the `generate_features_example.sh`.
+> Before you train and test the model, you must successfully run the `generate_features_example.sh`.
 
 ### Test 
 
