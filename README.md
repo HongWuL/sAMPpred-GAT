@@ -146,7 +146,9 @@ Note that `generate_features_example.sh` just generated the corrent folder struc
 ### Test 
 
 A trained model for XUAMP is supplied in saved_models/samp.model as an example. Run `test.py` to predict the example sequences:
-`python test.py`
+```
+python test.py
+```
 
 If you want test the specific dataset, for example XUAMP, you should copy the corresponding files in fasta format in `datasets/independent test datasets/` directory into the `data/test_data/positive/` and `data/test_data/negative/`, and set the ***args*** relative to the inputs. An example is given by `test.sh`:
 ```
