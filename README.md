@@ -7,7 +7,6 @@ The majoy dependencies used in this project are as following:
 ```
 python  3.7
 numpy 1.21.6
-pandas  1.3.5
 tqdm  4.64.1
 pyyaml  6.0
 scikit-learn  1.0.2
