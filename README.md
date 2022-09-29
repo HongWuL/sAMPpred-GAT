@@ -20,7 +20,10 @@ tensorboardX  2.5.1
 ```
 More detailed python libraries used in this project are referred to `requirements.txt`. 
 Check your CPU device and install the pytorch and pyG (torch-cluster, torch-scatter, torch-sparse, torch-geometric) according to your CUDA version.
-> Note that torch-geometric 1.7.2 and tensorflow 1.14.0 are recommended, becuase our trained model does not support the `torch-geometric` with higher version , and the model from trRosetta does not support the `tensorflow` with higher version.
+> **Note** that torch-geometric 1.7.2 and tensorflow 1.14.0 are required, becuase our trained model does not support the `torch-geometric` with higher version , and the model from trRosetta does not support the `tensorflow` with higher version.
+> 
+The The installed version of pyG (torch-cluster, torch-scatter, torch-sparse, torch-geometric) must be a GPU version according to your CUDA. If you installed a wrong vesion, there will be some unexpected errors like https://github.com/rusty1s/pytorch_scatter/issues/248 and https://github.com/pyg-team/pytorch_geometric/issues/2040 .
+
 
 ## Tools
 Two multiple sequence alignment tools and three databases are required: 
