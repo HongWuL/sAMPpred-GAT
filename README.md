@@ -22,7 +22,7 @@ More detailed python libraries used in this project are referred to `requirement
 Check your CPU device and install the pytorch and pyG (torch-cluster, torch-scatter, torch-sparse, torch-geometric) according to your CUDA version.
 > **Note** that torch-geometric 1.7.2 and tensorflow 1.14.0 are required, becuase our trained model does not support the `torch-geometric` with higher version , and the model from trRosetta does not support the `tensorflow` with higher version.
 > 
-The The installed version of pyG (torch-cluster, torch-scatter, torch-sparse, torch-geometric) must be a GPU version according to your CUDA. If you installed a wrong vesion, there will be some unexpected errors like https://github.com/rusty1s/pytorch_scatter/issues/248 and https://github.com/pyg-team/pytorch_geometric/issues/2040 .
+The The installed version of pyG (torch-cluster, torch-scatter, torch-sparse, torch-geometric) must be a GPU version according to your CUDA. If you installed a wrong vesion, there will be some unexpected errors like https://github.com/rusty1s/pytorch_scatter/issues/248 and https://github.com/pyg-team/pytorch_geometric/issues/2040.
 
 
 ## Tools
@@ -37,13 +37,13 @@ nrdb90(http://bliulab.net/sAMPpred-GAT/static/download/nrdb90.tar.gz)
 NR(https://ftp.ncbi.nlm.nih.gov/blast/db/)
 uniclust30_2018_08(https://wwwuser.gwdg.de/~compbiol/uniclust/2018_08/uniclust30_2018_08_hhsuite.tar.gz)
 ```
-**nrdb90**: We have supplied the nrdb90 databases in our webserver. You need to put it into the `utils/psiblast/` directoy and decompress it. 
+**nrdb90**: We have supplied the nrdb90 databases on our webserver. You need to put it into the `utils/psiblast/` directoy and decompress it. 
 
-**NR**:You can download NR dababase from `https://ftp.ncbi.nlm.nih.gov/blast/db/`. Note that only the files with format `nr.*` are needed. You need to download them can put them into the `utils/psiblast/nr/` directory
+**NR**:You can download NR dababase from `https://ftp.ncbi.nlm.nih.gov/blast/db/`. Note that only the files with format `nr.*` are needed. You need to download them can put them into the `utils/psiblast/nr/` directory. The `utils/psiblast/nr/` folder should contain `nr.00.psq`, `nr.00.ppi`, ..., `nr.54.phd`, etc..
 
-**uniclust30_2018_08**:You can download it dababase from `https://wwwuser.gwdg.de/~compbiol/uniclust/2018_08/uniclust30_2018_08_hhsuite.tar.gz` and decompress it in the directory `utils/hhblits/`.
+**uniclust30_2018_08**:You can download it dababase from `https://wwwuser.gwdg.de/~compbiol/uniclust/2018_08/uniclust30_2018_08_hhsuite.tar.gz` and decompress it in the directory `utils/hhblits/`. 
 
-**trRosetta**: The structures are predicted by trRosetta(https://github.com/gjoni/trRosetta), you need to download and place the trRosetta pretrain model(model2019_07) into `utils/trRosetta/`.
+**trRosetta**: The structures are predicted by trRosetta(https://github.com/gjoni/trRosetta), you need to download and put the trRosetta pretrain model(model2019_07) into `utils/trRosetta/`.
 
 > **Note** that all the defalut paths of the tools and databases are shown in `config.yaml`. You can change the paths of the tools and databases by configuring `config.yaml` as you need. 
 
