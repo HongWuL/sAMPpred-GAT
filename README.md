@@ -22,7 +22,7 @@ More detailed python libraries used in this project are referred to `requirement
 Check your CPU device and install the pytorch and pyG (torch-cluster, torch-scatter, torch-sparse, torch-geometric) according to your CUDA version.
 > **Note** that torch-geometric 1.7.2 and tensorflow 1.14.0 are required, becuase our trained model does not support the `torch-geometric` with higher version , and the model from trRosetta does not support the `tensorflow` with higher version.
 > 
-The The installed pyG (torch-cluster, torch-scatter, torch-sparse, torch-geometric) must be a GPU version according to your CUDA. If you installed a wrong vesion, there will be some unexpected errors like https://github.com/rusty1s/pytorch_scatter/issues/248 and https://github.com/pyg-team/pytorch_geometric/issues/2040. We provide the installation methods of pytorch and pyG in our environment as an exmaple:
+The The installed pyG (torch-cluster, torch-scatter, torch-sparse, torch-geometric) must be a GPU version according to your CUDA. If you installed a wrong vesion, there will be some unexpected errors like https://github.com/rusty1s/pytorch_scatter/issues/248 and https://github.com/pyg-team/pytorch_geometric/issues/2040. We provide the installation process of pytorch and pyG in our environment for reference:
 
 ```
 pip install torch==1.11.0+cu113 torchvision==0.12.0+cu113 torchaudio==0.11.0 --extra-index-url https://download.pytorch.org/whl/cu113
@@ -101,7 +101,7 @@ Run the example by:
 chmod +x generate_features_example.sh
 ./generate_features_example.sh
 ```
-The features of the examples will be genrerated if your tools and databases are configured correctly. The `BLAST Database error` means the nrdb90 or NR is failed to found, and `ERROR:   could not open file ... uniclust30_2018_08_cs219.ffdata` means the uniclust30_2018_08 is failed to found.
+The features of the examples will be genrerated if your tools and databases are configured correctly. The `BLAST Database error` means the nrdb90 or NR is failed to found, and `<font color='red'>ERROR:   could not open file ... uniclust30_2018_08_cs219.ffdata</font>` means the uniclust30_2018_08 is failed to found.
 
 If you want generate the features using your own file in fasta format, just follow the `generate_features_example.sh` and change the pathes into yours.
 
