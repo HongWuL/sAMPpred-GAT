@@ -48,7 +48,7 @@ uniclust30_2018_08(https://wwwuser.gwdg.de/~compbiol/uniclust/2018_08/uniclust30
 
 **NR**:You can download NR dababase from `https://ftp.ncbi.nlm.nih.gov/blast/db/`. Note that only the files with format `nr.*` are needed. You need to download them can put them into the `utils/psiblast/nr/` directory. The `utils/psiblast/nr/` folder should contain `nr.00.psq`, `nr.00.ppi`, ..., `nr.54.phd`, etc..
 
-**uniclust30_2018_08**:You can download it dababase from `https://wwwuser.gwdg.de/~compbiol/uniclust/2018_08/uniclust30_2018_08_hhsuite.tar.gz` and decompress it in the directory `utils/hhblits/`. 
+**uniclust30_2018_08**:You can download it dababase from `https://wwwuser.gwdg.de/~compbiol/uniclust/2018_08/uniclust30_2018_08_hhsuite.tar.gz`. Just decompress it in the directory `utils/hhblits/` and rename the source folder as uniclust30_2018_08.
 
 **trRosetta**: The structures are predicted by trRosetta(https://github.com/gjoni/trRosetta), you need to download and put the trRosetta pretrain model(model2019_07) into `utils/trRosetta/`.
 
