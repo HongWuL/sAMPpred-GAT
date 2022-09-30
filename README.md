@@ -50,7 +50,7 @@ uniclust30_2018_08(https://wwwuser.gwdg.de/~compbiol/uniclust/2018_08/uniclust30
 
 **uniclust30_2018_08**:You can download it dababase from `https://wwwuser.gwdg.de/~compbiol/uniclust/2018_08/uniclust30_2018_08_hhsuite.tar.gz`. Just decompress it in the directory `utils/hhblits/` and rename the source folder as uniclust30_2018_08.
 
-**trRosetta**: The structures are predicted by trRosetta(https://github.com/gjoni/trRosetta), you need to download and put the trRosetta pretrain model(model2019_07) into `utils/trRosetta/`.
+**trRosetta**: The structures are predicted by trRosetta(https://github.com/gjoni/trRosetta), you need to download and put the trRosetta pretrain model(https://files.ipd.uw.edu/pub/trRosetta/model2019_07.tar.bz2) into `utils/trRosetta/`.
 
 > **Note** that all the defalut paths of the tools and databases are shown in `config.yaml`. You can change the paths of the tools and databases by configuring `config.yaml` as you need. 
 
