@@ -173,7 +173,7 @@ If you want train a model based on the specific dataset, for example XUAMP, you 
 chmod +x train.sh
 ./train.sh
 ```
-
+When the training process finished, the `saved_models/auc_XU_final.model`(We have supplied a well trained model and rename it into `samp.model`) will be the model optimized by AUC as introduced in this paper . 
 
 
 
