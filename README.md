@@ -111,7 +111,7 @@ If you want generate the features using your own file in fasta format, just foll
 ## Usage
 
 `train.py` and `test.py` are used for training and testing, respectively. 
-Running `python train.py -h` and `python test.py -h` to learn the meaning of each parameters.
+Running `python train.py -h` and `python test.py -h` to learn the meaning of each parameter.
 
 The input folder should like:
 
