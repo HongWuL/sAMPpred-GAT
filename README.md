@@ -101,7 +101,10 @@ Run the example by:
 chmod +x generate_features_example.sh
 ./generate_features_example.sh
 ```
-The features of the examples will be genrerated if your tools and databases are configured correctly. The `BLAST Database error` means the nrdb90 or NR is failed to found, and `<font color='red'>ERROR:   could not open file ... uniclust30_2018_08_cs219.ffdata</font>` means the uniclust30_2018_08 is failed to found.
+The features of the examples will be genrerated if your tools and databases are configured correctly. 
+Some common errors:
++ `BLAST Database error` means the nrdb90 or NR is failed to found.
++ `ERROR:   could not open file ... uniclust30_2018_08_cs219.ffdata` means the uniclust30_2018_08 is failed to found.
 
 If you want generate the features using your own file in fasta format, just follow the `generate_features_example.sh` and change the pathes into yours.
 
@@ -148,7 +151,7 @@ XXX(name of the negative file).fasta
 
 ```
 Note that `generate_features_example.sh` just generated the corrent folder structure. Just follow the example to generate the input folder.
-> Before you train and test the model, you must successfully run the `generate_features_example.sh`.
+> **Note** that before you train and test the model, you must successfully run  `generate_features_example.sh`.
 
 ### Test 
 
