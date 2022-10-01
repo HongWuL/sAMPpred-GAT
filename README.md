@@ -109,6 +109,10 @@ Some common errors:
 If you want generate the features using your own file in fasta format, just follow the `generate_features_example.sh` and change the pathes into yours.
 
 ## Usage
+It takes 3 steps to train/test our model:
+(1) copy the train/test soucre files in fasta format.
+(2) generate features.
+(3) train / test.
 
 `train.py` and `test.py` are used for training and testing, respectively. 
 Running `python train.py -h` and `python test.py -h` to learn the meaning of each parameter.
@@ -153,10 +157,7 @@ XXX(name of the negative file).fasta
 The script `generate_features_example.sh` just generated the right folder structure. Just follow the example to generate the input folder.
 > **Note** that before you train and test the model, you must successfully run  `generate_features_example.sh`.
 
-It takes 3 steps to train/test our model:
-(1) copy the train/test soucre files in fasta format.
-(2) generate features.
-(3) train / test.
+
 
 ### Test 
 
