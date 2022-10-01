@@ -110,8 +110,8 @@ If you want generate the features using your own file in fasta format, just foll
 
 ## Usage
 It takes 3 steps to train/test our model:
-(1) copy the train/test soucre files in fasta format.
-(2) generate features.
+(1) copy the train/test soucre files in fasta format, which is  supplied in `datasets` folder, into the `data` folder.
+(2) generate features, including the predicted sturctures and the sequential features.
 (3) train / test.
 
 `train.py` and `test.py` are used for training and testing, respectively. 
