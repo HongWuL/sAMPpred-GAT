@@ -153,6 +153,11 @@ XXX(name of the negative file).fasta
 The script `generate_features_example.sh` just generated the right folder structure. Just follow the example to generate the input folder.
 > **Note** that before you train and test the model, you must successfully run  `generate_features_example.sh`.
 
+It takes 3 steps to train/test our model:
+(1) copy the train/test soucre files in fasta format.
+(2) generate features.
+(3) train / test.
+
 ### Test 
 
 A trained model for XUAMP is supplied in saved_models/samp.model as an example. Run `test.py` to predict the example sequences:
